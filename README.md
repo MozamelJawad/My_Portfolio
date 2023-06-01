@@ -8,7 +8,6 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -27,7 +26,7 @@
 
 # 📖 My_Portfolio <a name="about-project"></a>
 
-**My_Portfolio** is a vanilla-css project for learning web development.
+**My_Portfolio** showcases my skills as a developer and it is designed using HTML and CSS.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -52,14 +51,6 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-Still not have live demo
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 

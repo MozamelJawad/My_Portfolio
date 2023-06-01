@@ -12,7 +12,8 @@
 }
 
 body {
-  max-width: 375px;
+  min-width: 375px;
+  min-height: 768px;
   font-family: "Poppins", sans-serif;
   margin: 0 auto;
   background: #f7f7f9;
@@ -20,7 +21,7 @@ body {
 
 header {
   background-color: #fff;
-  max-width: 375px;
+  min-width: 375px;
 }
 
 .toolbar-container {
@@ -36,7 +37,7 @@ header {
   font-family: "Poppins", sans-serif;
   line-height: 20px;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 1.2em;
 }
 
 .logo-container {
@@ -45,30 +46,23 @@ header {
 
 .menu {
   padding: 58px 24px 0 0;
-  font-size: 35px;
+  font-size: 2.2rem;
 }
 
-.ion-icon {
-  font-size: 64px;
-  color: #6070ff;
-  padding: 8px;
-  margin: 0 24px;
-}
-
-.hero {
+.content {
+  background-image: url("assets/Background/bg_image.png");
+  background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
   justify-content: center;
   height: 100vh;
-  background-repeat: no-repeat;
   border-bottom-left-radius: 25% 100px;
-  background-image: url("assets/Background/header-shapes\ mobile.png");
   background-color: #fff;
 }
 
 h1 {
   color: #172b4d;
-  font-size: 36px;
+  font-size: 2rem;
   padding: 0 24px 12px 24px;
   font-family: "Poppins", sans-serif;
   margin-top: 30px;
@@ -88,7 +82,7 @@ h1 {
 }
 
 .media_icons {
-  width: 170.17px;
+  width: 170px;
   height: 20px;
   margin-top: 10px;
   display: flex;
@@ -99,12 +93,12 @@ h1 {
 }
 
 .connect {
-  width: 117px;
+  width: 150px;
   height: 24px;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 1.1rem;
   line-height: 24px;
   color: #7f8cff;
   flex: none;
