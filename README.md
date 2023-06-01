@@ -83,7 +83,7 @@ https://github.com/MozamelJawad/My_Portfolio
 Install this project with: 
 
 ```sh
-  cd Hello_Microverse
+  cd My_Portfolio
  npm install
 ```
 
