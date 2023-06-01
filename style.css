@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+
 .container{
-  background: #FFF;
+  background: #fff;
   height: 100vh;
 }
 * {
@@ -10,7 +11,7 @@
 }
 body {
   max-width: 375px;
-  font-family:  "Poppins", sans-serif;
+  font-family: "Poppins", sans-serif;
   margin: 0 auto;
   background: #f7f7f9;
 }
@@ -59,7 +60,7 @@ h1 {
   color: #172b4d;
   font-size: 36px;
   padding: 0 24px 12px 24px;
-  font-family:  "Poppins", sans-serif;
+  font-family: "Poppins", sans-serif;
   margin-top: 30px;
 }
 .name {
@@ -70,7 +71,7 @@ h1 {
   color: #344563;
   font-size: 1rem;
   line-height: 24px;
-  font-family:  "Poppins", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
 }
 .media_icons {
@@ -83,15 +84,15 @@ h1 {
   list-style: none;
   padding-left: 20px;
 }
-.connect{
+.connect {
   width: 117px;
   height: 24px;
-  font-family: 'Poppins';
+  font-family: 'Poppins' ans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  color: #7F8CFF;
+  color: #7f8cff;
   flex: none;
   order: 0;
   flex-grow: 0;
