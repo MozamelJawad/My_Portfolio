@@ -140,14 +140,14 @@ h1 {
 }
 
 .left_block {
-display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 0px;
-gap: 12px;
-width: 82vw;;
-height: 288px;
-margin-top: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 12px;
+  width: 82vw;;
+  height: 288px;
+  margin-top: 5px;
 }
 
 .flex-items {
@@ -223,10 +223,8 @@ margin-top: 5px;
   font-family: "Poppins", sans-serif;
 }
 
-.btn-sm:hover,
-.btn-md:hover,
-.btn-lg:hover,
-.btn-xxl:hover {
+.btn-small:hover,
+.last-btn:hover {
   cursor: pointer;
   background-color: #6070ff;
   box-shadow: 0 0 16px rgba(64, 83, 252, 0.24);
@@ -234,10 +232,8 @@ margin-top: 5px;
   color: #fff;
 }
 
-.btn-sm:active,
-.btn-md:active,
-.btn-lg:active,
-.btn-xxl:active {
+.btn-small:active,
+.last-btn:active {
   cursor: pointer;
   background-color: #fff;
   border: 1px solid #7f8cff;
@@ -370,7 +366,7 @@ hr {
 }
 
 .multi-post {
-  color: #172B4D;
+  color: #172b4d;
   font-size: 26px;
   font-family: "Poppins", sans-serif;
   font-weight: 700;
@@ -389,7 +385,7 @@ hr {
   gap: 12px;
   min-width: 375px;
   height: 100vh;
-  border: 1px solid #DFE1E6;
+  border: 1px solid #dfe1e6;
   border-top-left-radius: 25% 100px;
   flex: none;
   order: 0;
@@ -398,28 +394,28 @@ hr {
 
 .contact {
   margin-top: 100px;
- font-size: 40px;
- color: #fff;
+  font-size: 40px;
+  color: #fff;
 }
 
 .contact_p {
-color: #fff;
-Font-family: "Poppins", sans-serif;
-Font-style: Regular;
-Font-size: 20px;
-Line-height: 40px;
-text-align: Center;
-Vertical-align: Top;
+  color: #fff;
+  Font-family: "Poppins", sans-serif;
+  Font-style: Regular;
+  Font-size: 20px;
+  Line-height: 40px;
+  text-align: Center;
+  Vertical-align: Top;
 }
 
 .input  {
-padding: 10px;
-width: 90%;
-margin-left:20px;
-background: #fff;
-border: 1px solid #CFD8DC;
-margin-top: 20px;
-border-radius: 8px;
+  padding: 10px;
+  width: 90%;
+  margin-left:20px;
+  background: #fff;
+  border: 1px solid #cfd8dc;
+  margin-top: 20px;
+  border-radius: 8px;
 }
 
 .touch {
@@ -427,12 +423,12 @@ border-radius: 8px;
 }
 
 ::placeholder {
-color:#000;
-font-family: "Poppins", sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 17px;
-line-height: 20px;
-display: flex;
-align-items: center;
+  color:#000;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
 }
