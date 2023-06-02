@@ -121,8 +121,8 @@ h1 {
   gap: 12px;
   min-width: 327px;
   height: 100vh;
-  background: #FFFFFF;
-  border: 1px solid #DFE1E6;
+  background: #fff;
+  border: 1px solid #dfe1e6;
   border-radius: 16px;
   flex: none;
   order: 0;
@@ -143,9 +143,9 @@ h1 {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 0px;
+  padding: 1px;
   gap: 12px;
-  width: 82vw;;
+  width: 82vw;
   height: 288px;
   margin-top: 5px;
 }
@@ -160,7 +160,7 @@ h1 {
 .canopy {
   list-style: none;
   color: #344563;
-  }
+}
 
 .cards_paragraph {
   color: #344563;
@@ -180,7 +180,7 @@ h1 {
   line-height: 16px;
 }
 
-.cards_btn{
+.cards_btn {
   display: flex;
   margin-top: 18px;
   margin-bottom: 10px;
@@ -400,18 +400,18 @@ hr {
 
 .contact_p {
   color: #fff;
-  Font-family: "Poppins", sans-serif;
-  Font-style: Regular;
-  Font-size: 20px;
-  Line-height: 40px;
-  text-align: Center;
-  Vertical-align: Top;
+  font-family: "Poppins", sans-serif;
+  font-style: regular;
+  font-size: 20px;
+  line-height: 40px;
+  text-align: center;
+  vertical-align: top;
 }
 
-.input  {
+.input {
   padding: 10px;
   width: 90%;
-  margin-left:20px;
+  margin-left: 20px;
   background: #fff;
   border: 1px solid #cfd8dc;
   margin-top: 20px;
@@ -423,7 +423,7 @@ hr {
 }
 
 ::placeholder {
-  color:#000;
+  color: #000;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
