@@ -178,7 +178,6 @@ h1 {
   font-size: 1rem;
   line-height: 24px;
   min-width: 270px;
-  /* margin-bottom: 10px; */
   font-family: "Poppins", sans-serif;
 }
 
@@ -284,11 +283,10 @@ h1 {
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
-  color: #396DF2;
+  color: #396df2;
   flex: none;
   order: 0;
   flex-grow: 0;
-
 }
 
 .accordion {
