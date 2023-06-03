@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
 
 .main {
+  display: grid;
   background: #fff;
   height: 100vh;
   border-bottom-left-radius: 25% 100px;
@@ -14,7 +15,6 @@
 
 body {
   min-width: 375px;
-  min-height: 768px;
   font-family: "Poppins", sans-serif;
   margin: 0 auto;
   background: #f7f7f9;
@@ -57,7 +57,7 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 100vh;
+  min-height: 100vh;
   border-bottom-left-radius: 25% 100px;
   background-color: #fff;
 }
@@ -67,7 +67,6 @@ h1 {
   font-size: 2rem;
   padding: 0 24px 12px 24px;
   font-family: "Poppins", sans-serif;
-  margin-top: 30px;
 }
 
 .name {
@@ -109,24 +108,35 @@ h1 {
   padding-left: 20px;
 }
 
+.about_myself {
+  display: flex;
+  background-color: #fff;
+}
+
 .work_cards {
   margin-top: 110px;
   box-sizing: border-box;
-  display: flex;
+  display: grid;
   flex-direction: column;
   align-items: center;
-  padding: 16px;
+  padding: 10px;
   margin-right: 20px;
-  margin-left: 20px;
+  margin-left: 15px;
   gap: 12px;
   min-width: 327px;
-  height: 100vh;
+  min-height: 552px;
   background: #fff;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
   flex: none;
   order: 0;
   flex-grow: 0;
+}
+
+.myself {
+  border-top-right-radius: 80px;
+  margin-right: 0;
+  margin-left: 0;
 }
 
 .image-fluid {
@@ -146,7 +156,7 @@ h1 {
   padding: 1px;
   gap: 12px;
   width: 82vw;
-  height: 288px;
+  min-height: 288px;
   margin-top: 5px;
 }
 
@@ -168,7 +178,7 @@ h1 {
   font-size: 1rem;
   line-height: 24px;
   min-width: 270px;
-  margin-bottom: 10px;
+  /* margin-bottom: 10px; */
   font-family: "Poppins", sans-serif;
 }
 
@@ -195,22 +205,21 @@ h1 {
   background-color: #ebebff;
   text-align: center;
   border-radius: 8px;
-  padding: 4px 12px;
+  padding: 5px 15px;
   transition: 0.2s;
   border: none;
   color: #6070ff;
   font-weight: 500;
-  margin-bottom: 10px;
   font-size: 12px;
   font-family: "Poppins", sans-serif;
 }
 
 .btn-container {
-  margin-top: 13px;
+  margin-top: 5px;
 }
 
 .last-btn {
-  width: 124px;
+  width: 130px;
   text-align: center;
   height: 48px;
   border: 1px solid #6070ff;
@@ -241,12 +250,15 @@ h1 {
 }
 
 .about {
-  max-width: 375px;
-  margin: 0 auto;
-  background-image: url("images/background/Base\ about\ my\ self.png");
-  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 80vw;
   border-top-right-radius: 0% 25px;
-  background-color: #f7f7f9;
+  background-color: #fff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
 
 .about-title {
@@ -264,9 +276,19 @@ h1 {
   margin-left: 20px;
 }
 
-.btn-resume {
-  font-size: 15px;
-  font-weight: 400;
+.btn-resume { 
+  padding: 5px;
+  margin-top: 8px;
+  width: 148px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  color: #396DF2;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+
 }
 
 .accordion {
@@ -328,8 +350,8 @@ h1 {
   margin-right: 64px;
 }
 
-.frameworks-container,
-.skills-container {
+.framework-container,
+.skill-container {
   width: 375px;
   display: flex;
   align-items: center;
@@ -352,6 +374,18 @@ hr {
   line-height: 24px;
   color: black;
   margin: 36px 36px;
+}
+
+.title {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
 
 .grid-container {
@@ -384,7 +418,7 @@ hr {
   align-items: center;
   gap: 12px;
   min-width: 375px;
-  height: 100vh;
+  min-height: 779px;
   border: 1px solid #dfe1e6;
   border-top-left-radius: 25% 100px;
   flex: none;
@@ -431,4 +465,10 @@ hr {
   line-height: 20px;
   display: flex;
   align-items: center;
+}
+
+.work_section {
+  display: grid;
+  min-width: 375px;
+  margin-left: 10px;
 }
