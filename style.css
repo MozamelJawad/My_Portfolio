@@ -491,7 +491,7 @@ hr {
 }
 
 ::placeholder {
-  color: #000;
+  color: ##b3bac5;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -516,4 +516,9 @@ hr {
   height: 5px;
   background: #0d151e;
   margin-bottom: 0.8rem;
+}
+
+.touch:hover {
+  background-color: #a392ac;
+  color: white;
 }
