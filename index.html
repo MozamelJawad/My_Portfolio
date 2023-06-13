@@ -1,346 +1,220 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="utf-8">
+    <title>My Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
   </head>
-
   <body>
-    <!-- Header Setion -->
-    <header class="toolbar-container">
-        <div class="logo-container">
-          <a class="logo" href="">My Logo</a>
-        </div>
-        <nav class="nav_item">
-          <ion-icon class="menu" name="menu-sharp"></ion-icon>
-        </nav>
+    <header class="main-header">
+        <a href="#" class="header-title">My Logo</a>
+        <a href="#" class="icon">
+            <i class="bi bi-list"></i>
+        </a>
       </header>
-     
-    <main class="main "> 
-      <section class="content">
-        <h1 class="name">
-          I'm Mozamel Jawad. <br> Glad to see you!
-        </h1>
-        <p class="paragraph">
-          I'm a software developer! I can help you build a product , feature or
-          website Look through some of my work and experience! If you like what
-          you see and have a project you need coded, don't hestiate to contact me.
-        </p>
-  
-        <span class="connect">LETS CONNECT</span>
-  
-        <div class="social_media">
-          <ul class="media_icons">
-            <li>
-              <a href="#">
-                <img src="assets/Icons/twitter.svg" alt="Twitter" />
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <img src="assets/Icons/linkedin.png" alt="LinkedIn" />
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <img src="assets/Icons/media.svg" alt="Media" />
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <img src="assets/Icons/cat.svg" alt="Github" />
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <img src="assets/icons/victory.svg" alt="Victory" />
-              </a>
-            </li>
-          </ul>
-        </div>
-      </section>
 
-<!-- Work Secction -->
-      <section class="work_section">
-        <div class="work_cards">
-          <div class="snapshot">
-            <img class="image-fluid" src="assets/works/snap.png" alt="">
+      <main>
+        <section class="content">
+          <h1 class="name">I'm Mozamel Jawad. <br> Glad to see you</h1>
+          <p class="message">I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.</p>
+
+          <span class="connect">LET’S CONNECT</span>
+          <div class="social-icons">
+            <a href="#">
+              <img src="assets/Icons/twitter.svg">
+            </a>
+            <a href="#">
+              <img src="assets/Icons/linkedin.png">
+            </a>
+            <a href="#">
+              <img src="assets/Icons/media.svg">
+            </a>
+            <a href="#">
+              <img src="assets/Icons/cat.svg">
+            </a>
+            <a href="#">
+              <img src="assets/Icons/victory.svg">
+            </a>
           </div>
-          <div class="left_block">
-            <h3 class="title">Tonic</h3>
-            <ul class="flex-items">
-              <li class="list-item canopy">CANOPY</li>
-              <li class="list-item role">Back End Dev</li>
-              <li class="list-item year">2015</li>
-            </ul>
-            <p class="cards_paragraph">
-              A daily selection of privately personalized reads; no accounts or
-              sign-ups required.
-            </p>
-            <ul class="cards_btn">
-              <li class="btn">
-                <button class="btn-small" type="button">html</button>
-              </li>
-              <li class="btn">
-                <button class="btn-small" type="button">css</button>
-              </li>
-              <li class="btn">
-                <button class="btn-small" type="button">javaScript</button>
-              </li>
-            </ul>
-            <div class="btn-container">
-              <button type="button" class="last-btn">See Project</button>
+
+        </section>
+      <!-- start of work container -->
+        <div class="works-container">
+
+          <!-- first part of card works -->
+          <section class="card-works card-works-1">
+            <div class="portfolio-image">
+              <img class="snapshot-portfolio-1" src="assets/works/snap1.png" alt="">
             </div>
-          </div>
-        </div>
-      </section>
-      
-      <section>
-      <div class="work_cards">
-        <a href="#">
-          <img
-            class="image-fluid"
-            src="assets/works/image_2.png"
-            alt="background_image"
-          />
-        </a>
-        <div class="p-title">
-          <h3 class="title">Multi-Post <br>
-            Stories</h3>
-          <ul class="flex-items">
-            <li class="list-item canopy">CANOPY</li>
-            <li class="list-item role">Back End Dev</li>
-            <li class="list-item year">2015</li>
-          </ul>
-          <p class="cards_paragraph">
-            A daily selection of privately personalized reads; no accounts or
-            sign-ups required.
-          </p>
-          <ul class="cards_btn">
-            <li class="btn">
-              <button class="btn-small" type="button">html</button>
-            </li>
-            <li class="btn">
-              <button class="btn-small" type="button">css</button>
-            </li>
-            <li class="btn">
-              <button class="btn-small" type="button">javaScript</button>
-            </li>
-          </ul>
-          <div class="btn-container see_project">
-            <button type="button" class="last-btn">See Project</button>
-          </div>
-        </div>
-      </div>
-
-      <div class="work_cards">
-        <a href="#">
-          <img
-            class="image-fluid"
-            src="assets/works/image_3.png"
-            alt="background_image"
-          />
-        </a>
-        <div class="p-title">
-          <h3 class="title">Tonic</h3>
-          <ul class="flex-items">
-            <li class="list-item canopy">CANOPY</li>
-            <li class="list-item role">Back End Dev</li>
-            <li class="list-item year">2015</li>
-          </ul>
-          <p class="cards_paragraph">
-            A daily selection of privately personalized reads; no accounts or
-            sign-ups required.
-          </p>
-          <ul class="cards_btn">
-            <li class="btn">
-              <button class="btn-small" type="button">html</button>
-            </li>
-            <li class="btn">
-              <button class="btn-small" type="button">css</button>
-            </li>
-            <li class="btn">
-              <button class="btn-small" type="button">javaScript</button>
-            </li>
-          </ul>
-          <div class="btn-container see_project">
-            <button type="button" class="last-btn">See Project</button>
-          </div>
-        </div>
-      </div>
-
-      <div class="work_cards"> 
-        <a href="#">
-          <img
-            class="image-fluid"
-            src="assets/works/image_4.png"
-            alt="background_image"
-          />
-        </a>
-        <div class="p-title">
-          <h3 class="title">Multi-Post <br>
-            Stories</h3>
-          <ul class="flex-items">
-            <li class="list-item canopy">CANOPY</li>
-            <li class="list-item role">Back End Dev</li>
-            <li class="list-item year">2015</li>
-          </ul>
-          <p class="cards_paragraph">
-            A daily selection of privately personalized reads; no accounts or
-            sign-ups required.
-          </p>
-          <ul class="cards_btn">
-            <li class="btn">
-              <button class="btn-small" type="button">html</button>
-            </li>
-            <li class="btn">
-              <button class="btn-small" type="button">css</button>
-            </li>
-            <li class="btn">
-              <button class="btn-small" type="button">javaScript</button>
-            </li>
-          </ul>
-          <div class="btn-container see_project">
-            <button type="button" class="last-btn">See Project</button>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </section>
-
-  <!-- about myself -->
-  <section class="work_section">
-    <div class="work_cards myself">
-      <div class="snapshot">
-        <h2 class="about-title">About Myself<br /></h2>
-        <p class="paragraph">
-          Hello I'm a software developer! I can help you build a product , feature
-          or website Look through some of my work and experience! If you like what
-          you see and have a project you need coded, don't hestiate to contact me..
-        </p>
-    
-        <h4 class="connect">LETS CONNECT</h4>
-      </div>
-      <div class="socialmedia_icons_container">
-        <ul class="media_icons">
-          <li>
-            <a href="#">
-              <img src="assets/Icons/cat.svg" alt="Github" />
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <img
-                class="media--images"
-                src="assets/Icons/linkedin.png"
-                alt="LinkedIn"
-              />
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <img src="assets/Icons/victory.svg" alt="Victory" />
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <img
-              class="media--images"
-              src="assets/Icons/twitter.svg"
-              alt="Twitter"
-            />
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <img
-              class="media--images"
-              src="assets/Icons/menu.svg"
-              alt="Media Icon"
-            />
-            </a>
-          </li>
-        </ul>
-        <div class="btn-container about-btn">
-          <button type="button" class="last-btn btn-resume">
-            Get my resume
-          </button>
-        </div>
-      </div>
-      <div class="lanuages">
-        <ul class="accordion">
-          <li>
-            <div class="accordion-container">
-              <a class="skill--description-link" href="#"
-                ><span class="skill--description">Languages</span></a
-              >
-              <ion-icon class="chevron-icons" name="chevron-down-sharp"></ion-icon>
+            <div class="left-block">
+              <h2 class="title">Tonic</h2>
+              <ul class="items">
+                <li class="list-item canopy">CANOPY</li>
+                <li class="list-item backend-dev">Back End Dev</li>
+                <li class="list-item year">2015</li>
+              </ul>
+              <p class="card-text">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+              <div class="card-btn">
+                <button class="sm-btn" type="button" name="button">HTML</button>
+                <button class="sm-btn" type="button" name="button">CSS</button>
+                <button class="sm-btn" type="button" name="button">JavaScript</button>
+              </div>
+              <div class="action-btn-container">
+                <button class="action-btn" type="button" name="button">See project</button>
+              </div>
             </div>
-            <ul>
-              <li class="skill">
-                <img class="skill-image" src="assets/works/skill_1.png" alt="" />
-                <span class="skill-name">Javascript</span>
-              </li>
-              <li class="skill">
-                <img class="skill-image" src="assets/works/skill_2.png" alt="" />
-                <span class="skill-name">HTML</span>
-              </li>
-              <li class="skill">
-                <img class="skill-image" src="assets/works/skill_3.png" alt="" />
-                <span class="skill-name">CSS</span>
-              </li>
-           
-            
-            <li class="framework-container">
-              <a class="framework--title-link" href="#">
-                <span class="framework--title">Frameworks</span></a>
-              <ion-icon class="chevron-icons" name="chevron-forward-sharp"></ion-icon>
-           </li>
-            <hr />
-            <li class="skill-container">
-              <a class="skills--title-link" href="#">
-                <span class="skills--title">Skills</span></a
-              >
-              <ion-icon class="chevron-icons" name="chevron-forward-sharp"></ion-icon>
-            </li>
-       
-      </ul>
-      </div>
-    </div>
-  </section>
-  <!-- End of about myself -->
 
-  <!-- Work Secction -->
-    <div class="contact_me">
-      <div class="snapshot">
-        <h2 class="contact">Contact Me</h2>
-      </div>
-      <div class="pparagraph">
-        
-        <p class="contact_p">
-          If you have an application you are interested in developing, a feature that you need built or a project that needs coding. 
-I’d love to help with it!
-        </p>
-       <form action="#">
-        <input class="input"  placeholder="Lorem Ipsum" type="text" name="name" id="name"><br>
-        <input class="input" placeholder="loremipsum@gmail.com" type="email" name="email" id="email"><br>
-        <textarea class="input" placeholder="Write your message here..." name="message" id="message" cols="30" rows="10"></textarea>
-      </form>
-      <div class="btn-container">
-        <button type="button" class="last-btn touch">See Project</button>
-      </div>
+          </section>
+          <!-- end of first part of card works -->
 
-      </div>
-    </div>
-</main>
-   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
- <script
-   nomodule
-   src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js">
- </script>
+          <!-- second part of card works -->
+          <section class="card-works card-works-2">
+            <div>
+              <img class="snapshot-portfolio-1" src="assets/works/snap2.png" alt="">
+            </div>
+            <div class="left-block">
+              <h2 class="title">Multi-Post <br>Stories</h2>
+
+              <ul class="items">
+                <li class="list-item canopy">CANOPY</li>
+                <li class="list-item backend-dev">Back End Dev</li>
+                <li class="list-item year">2015</li>
+              </ul>
+              <p class="card-text">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+              <div class="card-btn">
+                <button class="sm-btn" type="button" name="button">HTML</button>
+                <button class="sm-btn" type="button" name="button">CSS</button>
+                <button class="sm-btn" type="button" name="button">JavaScript</button>
+              </div>
+              <div class="action-btn-container">
+                <button class="action-btn" type="button" name="button">See project</button>
+              </div>
+            </div>
+          </section>
+          <!-- end of second part of card works -->
+
+          <!-- third part of card works -->
+          <section class="card-works card-works-3">
+            <div>
+              <img class="snapshot-portfolio-1" src="assets/works/snap3.png" alt="">
+            </div>
+            <div class="left-block">
+              <h2 class="title">Tonic</h2>
+              <ul class="items">
+                <li class="list-item canopy">CANOPY</li>
+                <li class="list-item backend-dev">Back End Dev</li>
+                <li class="list-item year">2015</li>
+              </ul>
+              <p class="card-text">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+              <div class="card-btn">
+                <button class="sm-btn" type="button" name="button">HTML</button>
+                <button class="sm-btn" type="button" name="button">CSS</button>
+                <button class="sm-btn" type="button" name="button">JavaScript</button>
+              </div>
+              <div class="action-btn-container">
+                <button class="action-btn" type="button" name="button">See project</button>
+              </div>
+            </div>
+          </section>
+          <!-- end of third part of card works -->
+
+          <!-- fourth part of card works -->
+          <section class="card-works card-works-4">
+            <div>
+              <img class="snapshot-portfolio-1" src="assets/works/snap4.png" alt="">
+            </div>
+            <div class="left-block">
+              <h2 class="title">Multi-Post <br>Stories</h2>
+
+              <ul class="items">
+                <li class="list-item canopy">CANOPY</li>
+                <li class="list-item backend-dev">Back End Dev</li>
+                <li class="list-item year">2015</li>
+              </ul>
+              <p class="card-text">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+              <div class="card-btn">
+                <button class="sm-btn" type="button" name="button">HTML</button>
+                <button class="sm-btn" type="button" name="button">CSS</button>
+                <button class="sm-btn" type="button" name="button">JavaScript</button>
+              </div>
+              <div class="action-btn-container">
+                <button class="action-btn" type="button" name="button">See project</button>
+              </div>
+            </div>
+          </section>
+          <!-- end of fourth part of card works -->
+        </div>
+        <!-- end of work container -->
+
+          <!-- myself section -->
+        <section class="myself">
+          <div class="myself-top">
+                <h2 class="about-myself">About Myself</h2>
+                <p class="myself-text">Hello I’m a software developer! I can help you build a product , feature or website. Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.</p>
+
+                <span class="connect lets-connect">LET’S CONNECT</span>
+                <div class="social-icons">
+                  <a href="#">
+                    <img src="assets/Icons/twitter.svg">
+                  </a>
+                  <a href="#">
+                    <img src="assets/Icons/linkedin.png">
+                  </a>
+                  <a href="#">
+                    <img src="assets/Icons/media.svg">
+                  </a>
+                  <a href="#">
+                    <img src="assets/Icons/cat.svg">
+                  </a>
+                  <a href="#">
+                    <img src="assets/Icons/victory.svg">
+                  </a>
+                </div>
+                <div class="action-btn-container">
+                    <button class="action-btn resume-btn" type="button" name="button">Get my resume</button>
+                </div>
+              </div>
+
+                <div class="my-skills">
+                  <ul class="skills-list">
+                      <li>
+                        <div class="skills-container">
+                          <a class="skill-link" href="#"
+                            ><span class="list-description">Languages</span></a>
+                            <i class="bi bi-chevron-up chevron-icon"></i>
+                        </div>
+                      </li>
+                      <li class="skill">
+                        <img class="skill-image" src="assets/works/skill_1.png" alt="" />
+                        <span class="skill-name">Javascript</span>
+                      </li>
+                      <li class="skill">
+                        <img class="skill-image" src="assets/works/skill_2.png" alt="" />
+                        <span class="skill-name">HTML</span>
+                      </li>
+                      <li class="skill">
+                        <img class="skill-image" src="assets/works/skill_3.png" alt="" />
+                        <span class="skill-name">CSS</span>
+                      </li>
+                      <li class="frame-container">
+                        <a class="frame-title" href="#">
+                          <span class="framework--title">Frameworks</span></a>
+                          <i class="bi bi-chevron-right chevron-icon"></i>
+                      </li>
+                      <hr />
+                      <li class="frame-container">
+                        <a class="frame-title" href="#">
+                          <span class="skills--title">Skills</span></a>
+                          <i class="bi bi-chevron-right chevron-icon"></i>
+                    </li>
+              </ul>
+        </div>
+
+    </section>
+          <!-- End of myself section -->
+
+    </main>
   </body>
 </html>
