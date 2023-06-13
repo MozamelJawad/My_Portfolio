@@ -95,8 +95,12 @@ body {
   justify-content: space-around;
   align-items: baseline;
   margin-top: 1em;
-  min-width: 200px;
+  width: 200px;
   min-height: 40px;
+}
+
+.first-icons {
+  margin-left: 0.5em;
 }
 
 .works-container {
@@ -518,6 +522,6 @@ hr {
 }
 
 .touch:hover {
-  background-color: #a392ac;
+  background-color: #6070ff;
   color: #fff;
 }
