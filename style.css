@@ -517,4 +517,7 @@ hr {
   margin-bottom: 0.8rem;
 }
 
-////////////////
+.touch:hover {
+  background-color: #a392ac;
+  color: white;
+}
