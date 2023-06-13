@@ -1,7 +1,6 @@
 * {
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+  ////////
 }
 
 body {
@@ -518,7 +517,4 @@ hr {
   margin-bottom: 0.8rem;
 }
 
-.touch:hover {
-  background-color: #a392ac;
-  color: white;
-}
+////////////////
