@@ -355,7 +355,7 @@ body {
 .skills-container {
   display: flex;
   align-items: center;
-  justify-content: start;
+  justify-content: space-between;
   min-width: 80vw;
   margin-left: 2.5rem;
   margin-right: 2rem;
@@ -402,16 +402,21 @@ body {
 .skill-name {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
-  font-size: 15px;
+  font-size: 1rem;
   line-height: 20px;
   color: #253858;
 }
 
 .chevron-icon {
   cursor: pointer;
-  margin-left: 10rem;
   font-size: 2rem;
   margin-right: 2rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.bi-chevron-up {
+  margin-right: 0;
 }
 
 .frame-container {
