@@ -574,6 +574,14 @@ hr {
   padding: 10px 12px;
   width: 86px;
   height: 40px;
+  background-color: #fff;
+  color:#344563;
+  transition: all 0.5s ease-out;
+}
+
+.header-menu li:hover,
+.header-menu li:focus {
+  background-color: #2230d2;
 }
 
 .header-menu li a {
@@ -583,6 +591,12 @@ hr {
   font-size: 1rem;
   text-decoration: none;
   color: #344563;
+  transition: all 0.2s ease-in-out;
+}
+
+.header-menu li:hover a,
+.header-menu li:focus a {
+  color: #fff;
 }
 
 @media screen and (min-width: 768px) {
