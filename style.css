@@ -618,7 +618,7 @@ hr {
   font-size: 1rem;
   text-decoration: none;
   color: #344563;
-  transition: all 0.2s ease-in-out;
+  transition: all 0.3s ease-in;
 }
 
 .header-menu li:hover a,
