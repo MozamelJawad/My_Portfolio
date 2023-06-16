@@ -591,9 +591,9 @@ hr {
   .content {
     border-bottom-left-radius: 10% 100px;
     min-height: 600px;
-    }
+  }
 
-/* Portfolio */
+  /* Portfolio */
   .works-container {
     box-sizing: border-box;
     display: flex;
@@ -627,7 +627,7 @@ hr {
     flex: none;
     order: 0;
     flex-grow: 0;
-    object-fit: cover;    
+    object-fit: cover;
   }
 
   .portfolio-image {
@@ -650,7 +650,7 @@ hr {
     flex: 1;
   }
 
-/* myself  */
+  /* myself  */
   .myself {
     box-sizing: border-box;
     width: 100%;
@@ -683,7 +683,7 @@ hr {
     align-content: space-around;
     width: 80%;
   }
-     
+   
   .my-skills {
     display: flex;
     flex-direction: row;
@@ -717,11 +717,9 @@ hr {
     margin-right: 0;
   }
 
-  .skill-name,
   .skill-name {
     display: flex;
     flex-direction: row;
-
   }
 
   .chevron-icon {
@@ -757,7 +755,7 @@ hr {
     padding: 0.5em 12em;
     border: 1px solid #dfe1e6;
   }
-  
+
   .btn-container {
     display: flex;
     flex-direction: column;
