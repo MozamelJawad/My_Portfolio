@@ -68,7 +68,6 @@ body {
 .message {
   min-width: 327px;
   padding: 1em;
-  min-height: 146px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -87,6 +86,7 @@ body {
   font-size: 1rem;
   line-height: 24px;
   color: #7f8cff;
+  cursor: pointer;
 }
 
 .social-icons {
@@ -297,6 +297,7 @@ body {
 .lets-connect {
   margin-left: 0;
   padding: 0;
+  cursor: pointer;
 }
 
 .about-myself {
@@ -343,7 +344,7 @@ body {
 }
 
 .my-skills {
-  margin-top: 10rem;
+  margin-top: 8em;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -420,10 +421,16 @@ body {
 }
 
 .frame-container {
-  min-width: 375px;
+  min-width: 300px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-left: 2.5rem;
+  margin-right: 2rem;
+}
+
+.frame-container > * {
+  flex: 1;
 }
 
 hr {
@@ -447,7 +454,6 @@ hr {
 .contact-me {
   background-image: url("assets/Background/contact.svg");
   background-repeat: no-repeat;
-  background-size: 100%;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
@@ -456,6 +462,10 @@ hr {
   min-width: 85vw;
   min-height: 779px;
   border: 1px solid #dfe1e6;
+  background-color: #6070ff;
+  border-radius: 5em 0 0 0;
+  background-position: 85% 90%, 50% 100%;
+  background-size: 350px, 110px, 100px;
 }
 
 .contact {
@@ -529,4 +539,273 @@ hr {
 .touch:hover {
   background-color: #6070ff;
   color: #fff;
+}
+
+.touch:active {
+  background: #2230d2;
+  border-radius: 8px;
+  color: #fff;
+}
+
+.action-btn:hover {
+  background: #6070ff;
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+  border-radius: 8px;
+  color: #fff;
+}
+
+.action-btn:active {
+  background: #2230d2;
+  border-radius: 8px;
+  color: #fff;
+}
+
+/* Desktop Version */
+.header-menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+  gap: 8px;
+}
+
+.header-menu li {
+  list-style: none;
+  padding: 10px 12px;
+  width: 86px;
+  height: 40px;
+}
+
+.header-menu li a {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  text-decoration: none;
+  color: #344563;
+}
+
+@media screen and (min-width: 768px) {
+  body,
+  main {
+    min-width: 768px;
+    font-family: "Poppins", sans-serif;
+    margin: 0 auto;
+    background-color: #f7f7f9;
+  }
+
+  .icon {
+    display: none;
+  }
+
+  .name,
+  .message,
+  .first-icons,
+  .connect {
+    margin-left: 130px;
+    margin-right: 130px;
+  }
+
+  .header-title {
+    margin-left: 3em;
+  }
+
+  .content {
+    border-bottom-left-radius: 10% 100px;
+    min-height: 600px;
+  }
+
+  /* Portfolio */
+  .works-container {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    gap: 3em;
+    width: 100%;
+    min-height: 2600px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  .card-works {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: flex-start;
+    padding: 1em;
+    gap: 1em;
+    width: 95%;
+    background: #fff;
+    border: 1px solid #dfe1e6;
+  }
+
+  .snapshot-portfolio-1 {
+    width: 100%;
+    border-radius: 8px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    object-fit: cover;
+  }
+
+  .portfolio-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    min-height: 445px;
+    margin: 1em 0 0 0;
+  }
+
+  .left-block {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem;
+    gap: 24px;
+    width: 50%;
+    min-height: 445px;
+    flex: 1;
+    margin: 1em 1em;
+  }
+
+  /* myself  */
+  .myself {
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 1em;
+    padding: 0 1em;
+    height: 100vh;
+  }
+
+  .myself-top {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-content: center;
+    width: 40%;
+    flex-basis: 40%;
+    padding: 1em;
+    margin-top: 5em;
+  }
+
+  .lets-connect {
+    margin: 0;
+  }
+
+  .skill-vertical {
+    display: flex;
+    align-items: flex-start;
+    align-content: space-around;
+    width: 80%;
+  }
+
+  .my-skills {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 3em;
+    flex: 2;
+    width: 60%;
+    flex-basis: 60%;
+    flex-basis: fit-content;
+  }
+
+  .skills-list,
+  .skills-container {
+    min-width: 0;
+    width: 100%;
+  }
+
+  .skills-container {
+    width: 85%;
+    margin-left: 2.5em;
+  }
+
+  .skill {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 2em;
+    padding: 1em;
+    height: 100px;
+    margin-right: 0;
+  }
+
+  .skill-name {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .chevron-icon {
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .frame-container {
+    margin-left: 0;
+  }
+
+  hr {
+    height: 1px;
+    width: 85%;
+    background-color: #dfe1e6;
+  }
+
+  .card-works-2,
+  .card-works-4 {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  /* Contact me */
+  .contact-me {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 100%;
+    padding: 0 8em;
+    border: 1px solid #dfe1e6;
+  }
+
+  .snapshot,
+  .pparagraph {
+    margin: 0 7em;
+    text-align: center;
+    width: 60%;
+  }
+
+  .btn-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .home-indicator {
+    display: none;
+  }
+
+  .mobile {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header-menu {
+    display: none;
+  }
+
+  .desktop {
+    display: none;
+  }
 }
