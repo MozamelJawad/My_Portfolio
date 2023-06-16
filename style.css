@@ -683,7 +683,7 @@ hr {
     align-content: space-around;
     width: 80%;
   }
-   
+
   .my-skills {
     display: flex;
     flex-direction: row;
@@ -766,8 +766,8 @@ hr {
     display: none;
   }
 
-  .mobile {
-   display: none;
+  .mobel {
+    display: none;
   }
 
   .bg-color {
