@@ -13,6 +13,11 @@
         <a href="#" class="icon">
             <i class="bi bi-list"></i>
         </a>
+        <ul class="header-menu">
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact-me">Contact</a></li>
+        </ul>
       </header>
 
       <main>
@@ -41,7 +46,7 @@
 
         </section>
       <!-- start of work container -->
-        <div class="works-container">
+        <div class="works-container" id="portfolio">
 
           <!-- first part of card works -->
           <section class="card-works card-works-1">
@@ -71,17 +76,17 @@
 
           <!-- second part of card works -->
           <section class="card-works card-works-2">
-            <div>
+            <div class="portfolio-image">
               <img class="snapshot-portfolio-1" src="assets/works/snap2.png" alt="">
             </div>
             <div class="left-block">
-              <h2 class="title">Multi-Post <br>Stories</h2>
-
-              <ul class="items">
-                <li class="list-item canopy">CANOPY</li>
-                <li class="list-item backend-dev">Back End Dev</li>
-                <li class="list-item year">2015</li>
-              </ul>
+              <h2 class="title mobile">Multi-Post <br>Stories</h2>
+              <h2 class="title desktop">Multi-Post Stories</h2>
+            <ul class="items">
+              <li class="list-item canopy">CANOPY</li>
+              <li class="list-item backend-dev">Back End Dev</li>
+              <li class="list-item year">2015</li>
+            </ul>
               <p class="card-text">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
               <div class="card-btn">
                 <button class="sm-btn" type="button" name="button">HTML</button>
@@ -97,7 +102,7 @@
 
           <!-- third part of card works -->
           <section class="card-works card-works-3">
-            <div>
+            <div class="portfolio-image">
               <img class="snapshot-portfolio-1" src="assets/works/snap3.png" alt="">
             </div>
             <div class="left-block">
@@ -114,7 +119,7 @@
                 <button class="sm-btn" type="button" name="button">JavaScript</button>
               </div>
               <div class="action-btn-container">
-                <button class="action-btn" type="button" name="button">See project</button>
+                <button class="action-btn bg-color" type="button" name="button">See project</button>
               </div>
             </div>
           </section>
@@ -122,17 +127,17 @@
 
           <!-- fourth part of card works -->
           <section class="card-works card-works-4">
-            <div>
+            <div class="portfolio-image">
               <img class="snapshot-portfolio-1" src="assets/works/snap4.png" alt="">
             </div>
             <div class="left-block">
-              <h2 class="title">Multi-Post <br>Stories</h2>
-
-              <ul class="items">
-                <li class="list-item canopy">CANOPY</li>
-                <li class="list-item backend-dev">Back End Dev</li>
-                <li class="list-item year">2015</li>
-              </ul>
+              <h2 class="title mobile">Multi-Post <br>Stories</h2>
+              <h2 class="title desktop">Multi-Post Stories</h2>
+            <ul class="items">
+              <li class="list-item canopy">CANOPY</li>
+              <li class="list-item backend-dev">Back End Dev</li>
+              <li class="list-item year">2015</li>
+            </ul>
               <p class="card-text">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
               <div class="card-btn">
                 <button class="sm-btn" type="button" name="button">HTML</button>
@@ -149,7 +154,7 @@
         <!-- end of work container -->
 
           <!-- myself section -->
-        <section class="myself">
+        <section class="myself" id="about">
           <div class="myself-top">
                 <h2 class="about-myself">About Myself</h2>
                 <p class="myself-text">Hello I’m a software developer! I can help you build a product , feature or website. Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.</p>
@@ -175,47 +180,54 @@
                 <div class="action-btn-container">
                     <button class="action-btn resume-btn" type="button" name="button">Get my resume</button>
                 </div>
-              </div>
+          </div>
 
-                <div class="my-skills">
-                  <ul class="skills-list">
-                      <li class="skills-container">
-                          <a class="skill-link" href="#">
-                            <span class="list-description">Languages</span>
-                          </a>
-                            <i class="bi bi-chevron-up chevron-icon"></i>
-                      </li>
-                      <li class="skill">
-                        <img class="skill-image" src="assets/works/skill_1.png" alt="" />
-                        <span class="skill-name">Javascript</span>
-                      </li>
-                      <li class="skill">
-                        <img class="skill-image" src="assets/works/skill_2.png" alt="" />
-                        <span class="skill-name">HTML</span>
-                      </li>
-                      <li class="skill">
-                        <img class="skill-image" src="assets/works/skill_3.png" alt="" />
-                        <span class="skill-name">CSS</span>
-                      </li>
-                      <li class="frame-container">
-                        <a class="frame-title" href="#">
-                          <span class="framework--title">Frameworks</span></a>
-                          <i class="bi bi-chevron-right chevron-icon"></i>
-                      </li>
-                      <hr />
-                      <li class="frame-container">
-                        <a class="frame-title" href="#">
-                          <span class="skills--title">Skills</span></a>
-                          <i class="bi bi-chevron-right chevron-icon"></i>
+          <div class="my-skills">
+            <ul class="skills-list">
+                <li class="skills-container">
+                    <a class="skill-link" href="#">
+                      <span class="list-description">Languages</span>
+                    </a>
+                      <i class="bi bi-chevron-up chevron-icon"></i>
+                </li>
+                <div class="skill-vertical">
+                  <li class="skill">
+                    <img class="skill-image" src="assets/works/skill_1.png" alt="" />
+                    <span class="skill-name">Javascript</span>
                     </li>
-              </ul>
+                    <li class="skill">
+                      <img class="skill-image" src="assets/works/skill_2.png" alt="" />
+                      <span class="skill-name">HTML</span>
+                    </li>
+                    <li class="skill">
+                      <img class="skill-image" src="assets/works/skill_3.png" alt="" />
+                      <span class="skill-name">CSS</span>
+                    </li>
+                  </div> 
+                  <li class="frame-container">
+                    <a class="frame-title" href="#">
+                      <span class="framework--title">Frameworks</span></a>
+                      <i class="bi bi-chevron-right chevron-icon"></i>
+                  </li>  
+
+                  <hr />
+                  
+                  <li class="frame-container">
+                    <a class="frame-title" href="#">
+                      <span class="skills--title">Skills</span>
+                    </a>
+                      <i class="bi bi-chevron-right chevron-icon"></i>
+                </li>
+                <hr>
+          </ul>
+        </div>
         </div>
 
     </section>
     <!-- End of myself section -->
 
       <!-- contact me section -->
-          <section class="contact-me">
+          <section class="contact-me" id="contact-me">
             <div class="snapshot">
                 <h2 class="contact">Contact Me</h2>
             </div>
