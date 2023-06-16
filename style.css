@@ -46,7 +46,7 @@ body {
   }
 
   100% {
-    color: #Fa2;
+    color: #fa2;
   }
 }
 
@@ -414,7 +414,7 @@ body {
   height: 48px;
   width: 48px;
   object-fit: cover;
-  animation: 4s linear 0s infinite alternate icon-large ;
+  animation: 4s linear 0s infinite alternate icon-large;
 }
 
 @keyframes icon-large {
@@ -602,7 +602,7 @@ hr {
   width: 86px;
   height: 40px;
   background-color: #fff;
-  color:#344563;
+  color: #344563;
   transition: all 0.5s ease-out;
 }
 
