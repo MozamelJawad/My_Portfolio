@@ -43,6 +43,12 @@
   </ul>
 </details>
 
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Live Demo link](https://MozamelJawad.github.io/My_Portfolio/)
+
+##
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
@@ -60,7 +66,7 @@ To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-In order to run this project you need:
+In order to run this project, you need:
 
 ### Setup
 
@@ -91,7 +97,7 @@ To run the project, execute the following command:
 
 ### Deployment
 
-Project can be deploy by using the gh-pages and other web plaform.
+Project can be deployed by using the gh-pages and other web platforms.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -132,7 +138,7 @@ Feel free to check the [issues page](https://github.com/MozamelJawad/My_Portfoli
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project give a ⭐️  
+If you like this project, give a ⭐️  
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -141,7 +147,7 @@ If you like this project give a ⭐️
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thanks from Microverse
+I would like to thank from Microverse
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
