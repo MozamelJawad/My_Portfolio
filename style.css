@@ -657,26 +657,14 @@ hr {
   .icon {
     display: none;
   }
-
+  
   .name,
-  .first-icons,
-  .connect {
-    margin-left: 130px;
-    margin-right: 130px;
-  }
-
-  .message {
-    margin-right: 14em;
-    margin-left: 130px;
-  }
-
-  /* .name,
   .message,
   .first-icons,
   .connect {
     margin-left: 13rem;
     margin-right: 14em;
-  } */
+  } 
 
   .header-title {
     margin-left: 3em;
