@@ -659,11 +659,15 @@ hr {
   }
 
   .name,
-  .message,
   .first-icons,
   .connect {
     margin-left: 130px;
     margin-right: 130px;
+  }
+
+  .message {
+    margin-right: 14em;
+    margin-left: 130px;
   }
 
   .header-title {
