@@ -78,7 +78,25 @@ body {
   align-items: center;
   color: #172b4d;
   padding: 1rem;
-  animation: change-color 2s 5s infinite  linear backwards;
+}
+
+@keyframes change-color-name {
+  0% {
+    color: #080;
+  }
+
+  50% {
+    color: palevioletred;
+  }
+
+  100% {
+    color: #fa2;
+  }
+}
+
+.name:hover {
+  animation: change-color-name 2s linear backwards;
+  cursor: pointer;
 }
 
 .message {
@@ -594,6 +612,7 @@ hr {
   align-items: center;
   padding: 0;
   gap: 8px;
+  margin-right: 2rem;
 }
 
 .header-menu li {
