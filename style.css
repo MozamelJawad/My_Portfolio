@@ -86,11 +86,11 @@ body {
   }
 
   50% {
-    color: palevioletred;
+    color: rgb(78, 100, 198);
   }
 
   100% {
-    color: #fa2;
+    color: #2230d2;;
   }
 }
 
@@ -665,9 +665,17 @@ hr {
     margin-right: 130px;
   }
 
-  /* .message {
+  .message {
     margin-right: 14em;
     margin-left: 130px;
+  }
+
+  /* .name,
+  .message,
+  .first-icons,
+  .connect {
+    margin-left: 13rem;
+    margin-right: 14em;
   } */
 
   .header-title {
