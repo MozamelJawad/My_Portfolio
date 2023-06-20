@@ -322,7 +322,7 @@ body {
   gap: 12px;
   width: 80vw;
   height: 346px;
-  margin-top: 120px;
+  margin-top: 3rem;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -378,7 +378,7 @@ body {
 }
 
 .my-skills {
-  margin-top: 8em;
+  margin-top: 3em;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -648,7 +648,6 @@ hr {
 @media screen and (min-width: 768px) {
   body,
   main {
-    min-width: 768px;
     font-family: "Poppins", sans-serif;
     margin: 0 auto;
     background-color: #f7f7f9;
@@ -662,8 +661,8 @@ hr {
   .message,
   .first-icons,
   .connect {
-    margin-left: 13rem;
-    margin-right: 14rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
   }
 
   .header-title {
@@ -742,7 +741,7 @@ hr {
     align-items: flex-start;
     gap: 1em;
     padding: 0 1em;
-    height: 100vh;
+    height: 120vh;
   }
 
   .myself-top {
@@ -753,7 +752,7 @@ hr {
     width: 40%;
     flex-basis: 40%;
     padding: 1em;
-    margin-top: 5em;
+    margin-top: 3rem;
   }
 
   .lets-connect {
@@ -771,7 +770,7 @@ hr {
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-top: 3em;
+    margin-top: 2rem;
     flex: 2;
     width: 60%;
     flex-basis: 60%;
