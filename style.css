@@ -36,7 +36,7 @@ body {
 }
 
 .header-title:hover {
-    animation: change-color 2s linear backwards;
+  animation: change-color 2s linear backwards;
 }
 
 @keyframes change-color {
@@ -616,49 +616,49 @@ hr {
     background-color: #f7f7f9;
   }
 
-.header-menu {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 0;
-  gap: 8px;
-  margin-right: 2rem;
-}
+  .header-menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+    gap: 8px;
+    margin-right: 2rem;
+  }
 
-.header-menu li {
-  list-style: none;
-  padding: 10px 12px;
-  width: 86px;
-  height: 40px;
-  background-color: #fff;
-  color: #344563;
-  transition: all 0.5s ease-out;
-}
+  .header-menu li {
+    list-style: none;
+    padding: 10px 12px;
+    width: 86px;
+    height: 40px;
+    background-color: #fff;
+    color: #344563;
+    transition: all 0.5s ease-out;
+  }
 
-.header-menu li:hover,
-.header-menu li:focus {
-  background-color: #2230d2;
-}
+  .header-menu li:hover,
+  .header-menu li:focus {
+    background-color: #2230d2;
+  }
 
-.header-menu li a {
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 1rem;
-  text-decoration: none;
-  color: #344563;
-  transition: all 0.3s ease-in;
-}
+  .header-menu li a {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    text-decoration: none;
+    color: #344563;
+    transition: all 0.3s ease-in;
+  }
 
-.header-menu li:hover a,
-.header-menu li:focus a {
-  color: #fff;
-}
+  .header-menu li:hover a,
+  .header-menu li:focus a {
+    color: #fff;
+  }
 
-.hamburger {
-  display: none;
-  cursor: pointer;
-}
+  .hamburger {
+    display: none;
+    cursor: pointer;
+  }
 
   .icon {
     display: none;
@@ -867,16 +867,13 @@ hr {
 }
 
 @media screen and (max-width: 768px) {
-  .header-menu {
-    display: none;
-  }
-
   .desktop {
     display: none;
   }
 
   /* Hamburger */
   .header-menu {
+    display: none;
     position: fixed;
     left: 0;
     top: 90px;
@@ -911,9 +908,9 @@ hr {
   }
 
   .nav-item:hover {
-    background-color: #2230d2;;
+    background-color: #2230d2;
   }
-  
+
   .nav-item a {
     text-decoration: none;
     font-size: 1.5rem;
@@ -925,5 +922,4 @@ hr {
     display: block;
     cursor: pointer;
   }
-
 }
