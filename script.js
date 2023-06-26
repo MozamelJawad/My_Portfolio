@@ -21,8 +21,8 @@ let chanageMenu = function() {
 
     HeaderMenu.classList.remove("active");
     listIcon.classList.remove("bi-x");
-    mainHeader.classList.remove("active");
-    iconX.classList.remove("active");
+    // mainHeader.classList.remove("active");
+    // iconX.classList.remove("active");
 }
 
 
