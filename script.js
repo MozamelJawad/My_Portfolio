@@ -185,7 +185,7 @@ IconClose2.addEventListener('click', () => {
 });
 
 feature3.addEventListener('click', () => {
-  popup2.classList.toggle('active');
+  popup3.classList.toggle('active');
 });
 
 IconClose3.addEventListener('click', () => {
