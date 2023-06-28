@@ -136,7 +136,7 @@ projects.forEach((project, index) => {
 
         </div>
         <div class="action-btn-container">
-          <button class="action-btn popupBtn" type="button" name="button">See Live <i class="bi bi-arrow-up-right-circle"></i></button>
+          <button class="action-btn popupBtn" type="button" name="button">See Live <i class="bi bi-box-arrow-up-right"></i></button>
           <button class="action-btn popupBtn" type="button" name="button">See Source <i class="bi bi-github"></i></button>
         </div>
         </div>
