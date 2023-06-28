@@ -658,7 +658,7 @@ hr {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* width: 100%; */
+  width: 100%;
   margin: 1em 0 0 0;
 }
 
@@ -697,7 +697,7 @@ hr {
 .close-icon {
   font-size: 2rem;
   font-weight: 200;
-  color: #aaa;
+  color: #67798e;
 }
 
 .close-icon:hover,
