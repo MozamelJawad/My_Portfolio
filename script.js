@@ -120,13 +120,15 @@ projects.forEach((project, index) => {
       </div>
       <div class="popup-left-block">
        
-        <ul class="items">
+        <ul class="items popup-items">
           <li class="list-item canopy">${project.projectInfo.company}</li>
           <li class="list-item backend-dev">${project.projectInfo.role}</li>
           <li class="list-item year">${project.projectInfo.year}</li>
         </ul>
+        <div class="card-btn-para">
         <p class="card-text">${project.projectDescription}</p>
-        <div class="card-btn">
+        <div class="card-buttons">
+        <div class="card-btn btn-popup">
           <button class="sm-btn" type="button" name="button">${project.skills[0]}</button>
           <button class="sm-btn" type="button" name="button">${project.skills[1]}</button>
           <button class="sm-btn" type="button" name="button">${project.skills[2]}</button>
@@ -136,6 +138,8 @@ projects.forEach((project, index) => {
         <div class="action-btn-container">
           <button class="action-btn popupBtn" type="button" name="button">See Live <i class="bi bi-arrow-up-right-circle"></i></button>
           <button class="action-btn popupBtn" type="button" name="button">See Source <i class="bi bi-github"></i></button>
+        </div>
+        </div>
         </div>
       </div>
     </section>
@@ -161,6 +165,7 @@ const popup4 = document.getElementById('card-4');
 
 feature1.addEventListener('click', () => {
      popup1.classList.toggle('active');
+
    });
 
    IconClose1.addEventListener('click', () => {
