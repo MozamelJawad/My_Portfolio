@@ -212,7 +212,7 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 2rem;
+  gap: 12px;
   min-width: 236px;
   min-height: 32px;
 }
@@ -262,6 +262,8 @@ body {
   font-size: 1rem;
   line-height: 1.5rem;
   color: #344563;
+  text-align: justify;
+  padding-right: 10px;
 }
 
 .card-btn {
@@ -269,7 +271,7 @@ body {
   flex-direction: row;
   align-items: center;
   padding: 0;
-  gap: 1rem;
+  gap: 0.5rem;
   width: 214px;
   height: 24px;
 }
@@ -289,8 +291,9 @@ body {
 }
 
 .action-btn-container {
-  width: 295px;
-  height: 72px;
+  display: flex;
+  height: 70px;
+  gap: 10px;
 }
 
 .action-btn {
@@ -305,6 +308,7 @@ body {
   line-height: 1.5rem;
   color: #396df2;
   background: #fff;
+  text-align: center;
 }
 
 .myself {
@@ -608,12 +612,165 @@ hr {
   color: #fff;
 }
 
+/* popup */
+.popupBtn {
+  padding: 12px 14px;
+}
+
+.popup-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.popup-skills {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 90%;
+}
+
+.card-popup {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  min-height: 596px;
+  background: #fff;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+  width: 85%;
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+
+.popup-image {
+  width: 90%;
+  border-radius: 8px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  object-fit: cover;
+}
+
+.portfolio-popup-image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin: 1em 0 0 0;
+}
+
+.popup-left-block {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0;
+  gap: 1rem;
+  min-height: 288px;
+  width: 90%;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin-top: 1rem;
+}
+
+.popup-window {
+  display: none;
+}
+
+.popup-window.active {
+  display: block;
+  overflow-y: auto;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 999;
+  position: fixed;
+  backdrop-filter: blur(5px);
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: 0 auto;
+}
+
+.close-icon {
+  font-size: 2rem;
+  font-weight: 200;
+  color: #67798e;
+}
+
+.close-icon:hover,
+.close-icon:focus {
+  font-weight: 600;
+  cursor: pointer;
+  color: #000;
+}
+
+.pop-title {
+  float: left;
+}
+
+.pop-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 90%;
+  margin-top: 1rem;
+  justify-content: space-evenly;
+  align-content: flex-start;
+}
+
+.card-buttons {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
 @media screen and (min-width: 768px) {
   body,
   main {
     font-family: "Poppins", sans-serif;
     margin: 0 auto;
     background-color: #f7f7f9;
+  }
+
+  /* popup window */
+  .card-btn-para {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    gap: 12px;
+  }
+
+  .pop-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 90%;
+    margin-top: 1rem;
+    justify-content: space-between;
+    align-content: flex-start;
+  }
+
+  .btn-popup {
+    flex-wrap: wrap;
+    min-width: 240px;
+  }
+
+  .popupBtn {
+    padding: 3px;
+  }
+
+  .card-buttons {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    gap: 3rem;
+    width: 50%;
   }
 
   .header-menu {
@@ -891,6 +1048,11 @@ hr {
   .main-header.active {
     background-color: #6070ff;
     opacity: 0.95;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 99999;
   }
 
   .header-menu.active {
