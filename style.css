@@ -622,11 +622,13 @@ hr {
   align-items: center;
   padding: 16px;
   gap: 12px;
-  min-width: 327px;
   min-height: 596px;
   background: #fff;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
+  width: 85%;
+  margin: 0 auto;
+  margin-top: 2rem;
 }
 
 .popup-image {
@@ -703,12 +705,6 @@ hr {
   margin-top: 1rem;
   justify-content: space-between;
   align-content: flex-start;
-}
-
-.card-popup {
-  width: 85%;
-  margin: 0 auto;
-  margin-top: 2rem;
 }
 
 .card-buttons {

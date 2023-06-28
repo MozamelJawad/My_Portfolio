@@ -1,6 +1,6 @@
-function changeIcon(icon) {
-  // icon.classList.toggle('bi-x');
-
+// function changeIcon(icon) {
+// icon.classList.toggle('bi-x');
+function changeIcon() {
   const HeaderMenu = document.querySelector('.header-menu');
   HeaderMenu.classList.toggle('active');
 
@@ -29,51 +29,51 @@ chanageMenu();
 // add project to index page via javascript code
 
 const projects = [
-  {   
-      id: 1,
-      title: 'Tonic',
-      snapshot: 'assets/works/snap1.png',
-      projectDescription: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-      skills: ['HTML', 'CSS', 'JavaScript', 'Ruby'],
-      projectInfo: {company: 'CANOPY', role: 'Back END Dev', year: 2015 },
-      seeLive: 'https://github.com/MozamelJawad/My_Portfolio',
-      seeSource: 'https://github.com/MozamelJawad/My_Portfolio.git',
-},
-  {   
-      id: 2,
-      title: 'Multi-Post Stories',
-      snapshot: 'assets/works/snap2.png',
-      projectDescription: 'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.',
-      skills: ['HTML', 'CSS', 'Ruby', 'JavaScript'],
-      projectInfo: {company: 'Facebook', role: 'Back END Dev', year: 2016 },
-      seeLive: 'https://github.com/MozamelJawad/My_Portfolio',
-      seeSource: 'https://github.com/MozamelJawad/My_Portfolio.git',
-},
-  {   
-      id: 3,
-      title: 'Facebook 360',
-      snapshot: 'assets/works/snap3.png',
-      projectDescription: 'Exploring the future of media in Facebooks first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.',
-      skills: ['HTML', 'CSS', 'Ruby', 'JavaScript'],
-      projectInfo: {company: 'Facebook', role: 'Back END Dev', year: 2017 },
-      seeLive: 'https://github.com/MozamelJawad/My_Portfolio',
-      seeSource: 'https://github.com/MozamelJawad/My_Portfolio.git',
-},
-  {   
-      id: 4,
-      title: 'Uber Navigation',
-      snapshot: 'assets/works/snap4.png',
-      projectDescription: 'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
-      skills: ['HTML', 'CSS', 'Ruby', 'JavaScript'],
-      projectInfo: {company: 'UBER', role: 'Back END Dev', year: 2018 },
-      seeLive: 'https://github.com/MozamelJawad/My_Portfolio',
-      seeSource: 'https://github.com/MozamelJawad/My_Portfolio.git',
-},
+  {
+    id: 1,
+    title: 'Tonic',
+    snapshot: 'assets/works/snap1.png',
+    projectDescription: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    skills: ['HTML', 'CSS', 'JavaScript', 'Ruby'],
+    projectInfo: { company: 'CANOPY', role: 'Back END Dev', year: 2015 },
+    seeLive: 'https://github.com/MozamelJawad/My_Portfolio',
+    seeSource: 'https://github.com/MozamelJawad/My_Portfolio.git',
+  },
+  {
+    id: 2,
+    title: 'Multi-Post Stories',
+    snapshot: 'assets/works/snap2.png',
+    projectDescription: 'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.',
+    skills: ['HTML', 'CSS', 'Ruby', 'JavaScript'],
+    projectInfo: { company: 'Facebook', role: 'Back END Dev', year: 2016 },
+    seeLive: 'https://github.com/MozamelJawad/My_Portfolio',
+    seeSource: 'https://github.com/MozamelJawad/My_Portfolio.git',
+  },
+  {
+    id: 3,
+    title: 'Facebook 360',
+    snapshot: 'assets/works/snap3.png',
+    projectDescription: 'Exploring the future of media in Facebooks first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.',
+    skills: ['HTML', 'CSS', 'Ruby', 'JavaScript'],
+    projectInfo: { company: 'Facebook', role: 'Back END Dev', year: 2017 },
+    seeLive: 'https://github.com/MozamelJawad/My_Portfolio',
+    seeSource: 'https://github.com/MozamelJawad/My_Portfolio.git',
+  },
+  {
+    id: 4,
+    title: 'Uber Navigation',
+    snapshot: 'assets/works/snap4.png',
+    projectDescription: 'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
+    skills: ['HTML', 'CSS', 'Ruby', 'JavaScript'],
+    projectInfo: { company: 'UBER', role: 'Back END Dev', year: 2018 },
+    seeLive: 'https://github.com/MozamelJawad/My_Portfolio',
+    seeSource: 'https://github.com/MozamelJawad/My_Portfolio.git',
+  },
 
 ];
 
 // add the object code and properties to index page via loop
-projects.forEach((project, index) => {
+projects.forEach((project) => {
   const bodySection = document.querySelector('.works-container');
   const section = document.createElement('section');
   section.className = 'card-works';
@@ -103,9 +103,9 @@ projects.forEach((project, index) => {
   bodySection.append(section);
 });
 
-// Popup Window code start here 
+// Popup Window code start here
 const body = document.querySelector('body');
-projects.forEach((project, index) => {
+projects.forEach((project) => {
   const popupWindow = document.createElement('div');
   popupWindow.className = 'popup-window';
   popupWindow.id = `card-${project.id}`;
@@ -162,36 +162,34 @@ const popup2 = document.getElementById('card-2');
 const popup3 = document.getElementById('card-3');
 const popup4 = document.getElementById('card-4');
 
-
 feature1.addEventListener('click', () => {
-     popup1.classList.toggle('active');
+  popup1.classList.toggle('active');
+});
 
-   });
-
-   IconClose1.addEventListener('click', () => {
-    popup1.classList.toggle('active');
-  });
+IconClose1.addEventListener('click', () => {
+  popup1.classList.toggle('active');
+});
 
 feature2.addEventListener('click', () => {
-     popup2.classList.toggle('active');
-   });
+  popup2.classList.toggle('active');
+});
 
-   IconClose2.addEventListener('click', () => {
-    popup2.classList.toggle('active');
-  });
+IconClose2.addEventListener('click', () => {
+  popup2.classList.toggle('active');
+});
 
 feature3.addEventListener('click', () => {
-     popup2.classList.toggle('active');
-   });
+  popup2.classList.toggle('active');
+});
 
-   IconClose3.addEventListener('click', () => {
-    popup3.classList.toggle('active');
-  });
+IconClose3.addEventListener('click', () => {
+  popup3.classList.toggle('active');
+});
 
 feature4.addEventListener('click', () => {
-     popup4.classList.toggle('active');
-   });
+  popup4.classList.toggle('active');
+});
 
-   IconClose4.addEventListener('click', () => {
-    popup4.classList.toggle('active');
-  });
+IconClose4.addEventListener('click', () => {
+  popup4.classList.toggle('active');
+});
