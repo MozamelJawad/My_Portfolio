@@ -72,12 +72,11 @@ const projects = [
 
 ];
 
-
+// add the object code and properties to index page via loop
 projects.forEach((project, index) => {
   const bodySection = document.querySelector('.works-container');
   const section = document.createElement('section');
   section.className = 'card-works';
-  // section.id = `card`;
   section.innerHTML = `<div class="portfolio-image">
       <img class="snapshot-portfolio-1" src=${project.snapshot} alt="Snap image for background">
   </div>
@@ -148,7 +147,6 @@ const feature1 = document.getElementById('btn-1');
 const feature2 = document.getElementById('btn-2');
 const feature3 = document.getElementById('btn-3');
 const feature4 = document.getElementById('btn-4');
-
 
 const IconClose1 = document.getElementById('close-1');
 const IconClose2 = document.getElementById('close-2');
