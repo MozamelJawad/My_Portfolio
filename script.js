@@ -1,5 +1,3 @@
-// function changeIcon(icon) {
-// icon.classList.toggle('bi-x');
 function changeIcon() {
   const HeaderMenu = document.querySelector('.header-menu');
   HeaderMenu.classList.toggle('active');
@@ -34,6 +32,7 @@ const projects = [
     title: 'Tonic',
     snapshot: 'assets/works/snap1.png',
     projectDescription: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry",
     skills: ['HTML', 'CSS', 'JavaScript', 'Ruby'],
     projectInfo: { company: 'CANOPY', role: 'Back END Dev', year: 2015 },
     seeLive: 'https://github.com/MozamelJawad/My_Portfolio',
@@ -44,6 +43,7 @@ const projects = [
     title: 'Multi-Post Stories',
     snapshot: 'assets/works/snap2.png',
     projectDescription: 'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.',
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry",
     skills: ['HTML', 'CSS', 'Ruby', 'JavaScript'],
     projectInfo: { company: 'Facebook', role: 'Back END Dev', year: 2016 },
     seeLive: 'https://github.com/MozamelJawad/My_Portfolio',
@@ -54,6 +54,7 @@ const projects = [
     title: 'Facebook 360',
     snapshot: 'assets/works/snap3.png',
     projectDescription: 'Exploring the future of media in Facebooks first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.',
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry",
     skills: ['HTML', 'CSS', 'Ruby', 'JavaScript'],
     projectInfo: { company: 'Facebook', role: 'Back END Dev', year: 2017 },
     seeLive: 'https://github.com/MozamelJawad/My_Portfolio',
@@ -64,6 +65,7 @@ const projects = [
     title: 'Uber Navigation',
     snapshot: 'assets/works/snap4.png',
     projectDescription: 'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry",
     skills: ['HTML', 'CSS', 'Ruby', 'JavaScript'],
     projectInfo: { company: 'UBER', role: 'Back END Dev', year: 2018 },
     seeLive: 'https://github.com/MozamelJawad/My_Portfolio',
@@ -115,25 +117,29 @@ projects.forEach((project) => {
       <h2 class="title pop-title">${project.title}</h2>
       <i id="close-${project.id}" class="bi bi-x close-icon"></i>
   </div>
+  <div class="popup-skills">
+     <ul class="items popup-items">
+          <li class="list-item canopy">${project.projectInfo.company}</li>
+          <li class="list-item backend-dev">${project.projectInfo.role}</li>
+          <li class="list-item year">${project.projectInfo.year}</li>
+        </ul>
+  </div>
       <div class="portfolio-popup-image">
         <img class="popup-image" src="${project.snapshot}" alt="Snap image for background">
       </div>
       <div class="popup-left-block">
        
-        <ul class="items popup-items">
-          <li class="list-item canopy">${project.projectInfo.company}</li>
-          <li class="list-item backend-dev">${project.projectInfo.role}</li>
-          <li class="list-item year">${project.projectInfo.year}</li>
-        </ul>
+      
         <div class="card-btn-para">
-        <p class="card-text">${project.projectDescription}</p>
+        <p class="card-text">${project.projectDescription} <br>
+        ${project.description}
+        </p>
         <div class="card-buttons">
         <div class="card-btn btn-popup">
           <button class="sm-btn" type="button" name="button">${project.skills[0]}</button>
           <button class="sm-btn" type="button" name="button">${project.skills[1]}</button>
           <button class="sm-btn" type="button" name="button">${project.skills[2]}</button>
           <button class="sm-btn" type="button" name="button">${project.skills[3]}</button>
-
         </div>
         <div class="action-btn-container">
           <button class="action-btn popupBtn" type="button" name="button">See Live <i class="bi bi-box-arrow-up-right"></i></button>
