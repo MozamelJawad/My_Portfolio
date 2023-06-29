@@ -209,7 +209,7 @@ const message = document.getElementById('message');
 const errorMessage = document.getElementById('error-message');
 
 function formValidate(event) {
-  if (fullName.value === '') {
+  if (fullName.value === '' || fullname.value == null) {
     errorMessage.style.display = 'block';
     errorMessage.innerHTML = 'Please write your full name.';
     event.preventDefault();
@@ -217,7 +217,7 @@ function formValidate(event) {
     errorMessage.style.display = 'block';
     errorMessage.innerHTML = 'Please write your valid email address in lowercase.';
     event.preventDefault();
-  } else if (message.value === '') {
+  } else if (message.value === '' || name.value == null) {
     errorMessage.style.display = 'block';
     errorMessage.innerHTML = 'Please write your message.';
     event.preventDefault();
