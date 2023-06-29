@@ -209,7 +209,7 @@ const message = document.getElementById('message');
 const errorMessage = document.getElementById('error-message');
 
 function formValidate(event) {
-  if (fullName.value === '') {
+  if (fullName.value === '' || fullName.value == null) {
     errorMessage.style.display = 'block';
     errorMessage.innerHTML = 'Please write your full name.';
     event.preventDefault();
