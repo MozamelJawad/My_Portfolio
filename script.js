@@ -200,8 +200,7 @@ IconClose4.addEventListener('click', () => {
   popup4.classList.toggle('active');
 });
 
-
-// Form Validation 
+// Form Validation
 
 const contactForm = document.getElementById('contact-form');
 const fullName = document.getElementById('name');
@@ -210,28 +209,21 @@ const message = document.getElementById('message');
 const errorMessage = document.getElementById('error-message');
 
 function formValidate(event) {
-
-  if(fullName.value === '') {
+  if (fullName.value === '') {
     errorMessage.style.display = 'block';
     errorMessage.innerHTML = 'Please write your full name.';
     event.preventDefault();
-  }
-
-  else if (email.value !== email.value.toLowerCase()) {
+  } else if (email.value !== email.value.toLowerCase()) {
     errorMessage.style.display = 'block';
     errorMessage.innerHTML = 'Please write your valid email address in lowercase.';
     event.preventDefault();
-  } 
-
-  else if (message.value === '') {
+  } else if (message.value === '') {
     errorMessage.style.display = 'block';
     errorMessage.innerHTML = 'Please write your message.';
     event.preventDefault();
+  } else {
+    errorMessage.style.display = 'none';
   }
-  // else {
-  //    errorMessage.style.display = 'none'; 
-  // }
-
 }
 
 contactForm.addEventListener('submit', formValidate);
