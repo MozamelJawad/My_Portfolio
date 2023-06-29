@@ -221,7 +221,7 @@ function formValidate(event) {
     event.preventDefault();
     errorMessage.style.display = 'block';
    errorMessage.innerHTML = 'Please use Lowercase in email';
-  } else if (message.value === '' || name.value == null) {
+  } else if (message.value === '' || message.value == null) {
     errorMessage.style.display = 'block';
     errorMessage.innerHTML = 'Please write your message.';
     event.preventDefault();
