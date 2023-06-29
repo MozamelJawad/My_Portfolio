@@ -209,23 +209,32 @@ const message = document.getElementById('message');
 const errorMessage = document.getElementById('error-message');
 
 function formValidate(event) {
-  if (fullName.value === '' || fullname.value == null) {
+  if (fullName.value === '') {
     errorMessage.style.display = 'block';
     errorMessage.innerHTML = 'Please write your full name.';
     event.preventDefault();
-  } else if (email.value !== email.value.toLowerCase()) {
+  } 
+  else if (email.value === '') {
+    errorMessage.style.display = 'block';
+    errorMessage.innerHTML = 'Please write your email address.';
+    event.preventDefault();
+  }
+  else if (email.value !== email.value.toLowerCase()) {
     errorMessage.style.display = 'block';
     errorMessage.innerHTML = 'Please write your valid email address in lowercase.';
     event.preventDefault();
-  } else if (/[A-Z]/.test(email.value)) {
-    event.preventDefault();
-    errorMessage.style.display = 'block';
-   errorMessage.innerHTML = 'Please use Lowercase in email';
-  } else if (message.value === '' || message.value == null) {
+  }  
+  else if (/[A-Z]/.test(email.value)) {
+  errorMessage.style.display = 'block';
+   errorMessage.innerHTML = 'Please use Lowercase in your email address';
+   event.preventDefault();
+  } 
+  else if (message.value === '') {
     errorMessage.style.display = 'block';
     errorMessage.innerHTML = 'Please write your message.';
     event.preventDefault();
-  } else {
+  } 
+  else {
     errorMessage.style.display = 'none';
   }
 }
