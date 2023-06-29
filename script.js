@@ -199,3 +199,39 @@ feature4.addEventListener('click', () => {
 IconClose4.addEventListener('click', () => {
   popup4.classList.toggle('active');
 });
+
+// Form Validation
+
+const contactForm = document.getElementById('contact-form');
+const fullName = document.getElementById('name');
+const email = document.getElementById('email');
+const message = document.getElementById('message');
+const errorMessage = document.getElementById('error-message');
+
+function formValidate(event) {
+  if (fullName.value === '' || fullName.value == null) {
+    errorMessage.style.display = 'block';
+    errorMessage.innerHTML = 'Please write your full name.';
+    event.preventDefault();
+  } else if (email.value === '') {
+    errorMessage.style.display = 'block';
+    errorMessage.innerHTML = 'Please write your email address.';
+    event.preventDefault();
+  } else if (email.value !== email.value.toLowerCase()) {
+    errorMessage.style.display = 'block';
+    errorMessage.innerHTML = 'Please write your valid email address in lowercase.';
+    event.preventDefault();
+  } else if (/[A-Z]/.test(email.value)) {
+    errorMessage.style.display = 'block';
+    errorMessage.innerHTML = 'Please use Lowercase in your email address';
+    event.preventDefault();
+  } else if (message.value === '') {
+    errorMessage.style.display = 'block';
+    errorMessage.innerHTML = 'Please write your message.';
+    event.preventDefault();
+  } else {
+    errorMessage.style.display = 'none';
+  }
+}
+
+contactForm.addEventListener('submit', formValidate);

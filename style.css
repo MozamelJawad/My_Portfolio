@@ -729,12 +729,31 @@ hr {
   margin-top: 1rem;
 }
 
+small {
+  display: none;
+  color: red;
+  margin: 1rem 2rem -1.5rem 1.2rem;
+  background-color: #fff;
+  padding: 0.5rem;
+  text-align: center;
+  width: 90%;
+}
+
 @media screen and (min-width: 768px) {
   body,
   main {
     font-family: "Poppins", sans-serif;
     margin: 0 auto;
     background-color: #f7f7f9;
+  }
+
+  small {
+    color: red;
+    margin: 1rem 0 -1.5rem 1rem;
+    background-color: #fff;
+    padding: 0.5rem;
+    text-align: center;
+    display: none;
   }
 
   /* popup window */
