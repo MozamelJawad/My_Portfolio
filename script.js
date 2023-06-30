@@ -246,7 +246,7 @@ contactForm.addEventListener('submit', () => {
   localStorage.setItem('storeData', JSON.stringify(storeData));
 });
 
-window.onload = function dataLoad() {
+window.onload = function  {
   const data = JSON.parse(localStorage.getItem('storeData'));
   if (data) {
     fullName.value = data.storeName;
