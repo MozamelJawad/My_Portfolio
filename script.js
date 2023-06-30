@@ -248,8 +248,6 @@ contactForm.addEventListener('submit', function(){
   localStorage.setItem('storeData', JSON.stringify(storeData));
 });
 
-// contactForm.addEventListener('submit', formData);
-
 window.onload = function() {
   const data = JSON.parse(localStorage.getItem('storeData'));
   if(data) {
