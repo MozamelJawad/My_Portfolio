@@ -237,17 +237,27 @@ function formValidate(event) {
 contactForm.addEventListener('submit', formValidate);
 
 // Preserve data in browsers
-function formData() {
+
+// function formData() {
+//   storeData = {
+//     storeName: fullName.value,
+//     storeEmail: email.value,
+//     storeMessage: message.value,
+//     storeMessage: email.value,
+//   };
+//   localStorage.setItem('storeData', JSON.stringify(storeData));
+// }
+contactForm.addEventListener('submit', function(){
   storeData = {
     storeName: fullName.value,
     storeEmail: email.value,
     storeMessage: message.value,
-    storeMessage: email.value,
+    // storeMessage: email.value,
   };
   localStorage.setItem('storeData', JSON.stringify(storeData));
-}
+});
 
-contactForm.addEventListener('submit', formData);
+// contactForm.addEventListener('submit', formData);
 
 window.onload = function() {
   const data = JSON.parse(localStorage.getItem('storeData'));
