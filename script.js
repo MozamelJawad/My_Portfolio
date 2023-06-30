@@ -237,23 +237,20 @@ function formValidate(event) {
 contactForm.addEventListener('submit', formValidate);
 
 // Preserve data in browsers
-
-contactForm.addEventListener('submit', function(){
-  storeData = {
+contactForm.addEventListener('submit', () => {
+  const storeData = {
     storeName: fullName.value,
     storeEmail: email.value,
     storeMessage: message.value,
-    // storeMessage: email.value,
   };
   localStorage.setItem('storeData', JSON.stringify(storeData));
 });
 
-window.onload = function() {
+window.onload = function dataLoad() {
   const data = JSON.parse(localStorage.getItem('storeData'));
-  if(data) {
+  if (data) {
     fullName.value = data.storeName;
     email.value = data.storeEmail;
     message.value = data.storeMessage;
   }
-  }
-
+};
