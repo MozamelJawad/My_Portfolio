@@ -238,15 +238,19 @@ contactForm.addEventListener('submit', formValidate);
 
 // Preserve data in browsers
 
-// function formData() {
-//   storeData = {
-//     storeName: fullName.value,
-//     storeEmail: email.value,
-//     storeMessage: message.value,
-//     storeMessage: email.value,
-//   };
-//   localStorage.setItem('storeData', JSON.stringify(storeData));
-// }
+//  remover f
+function formData() {
+  storeData = {
+    storeName: fullName.value,
+    storeEmail: email.value,
+    storeMessage: message.value,
+    storeMessage: email.value,
+  };
+  localStorage.setItem('storeData', JSON.stringify(storeData));
+}
+
+// up to this 
+
 contactForm.addEventListener('submit', function(){
   storeData = {
     storeName: fullName.value,
