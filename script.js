@@ -237,12 +237,12 @@ function formValidate(event) {
 contactForm.addEventListener('submit', formValidate);
 
 // Preserve data in browsers
-
 function formData() {
   storeData = {
     storeName: fullName.value,
     storeEmail: email.value,
     storeMessage: message.value,
+    storeMessage: email.value,
   };
   localStorage.setItem('storeData', JSON.stringify(storeData));
 }
