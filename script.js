@@ -1,4 +1,5 @@
-function changeIcon() {
+function changeIcon(icon) {
+  icon.classList.toggle('bi-x');
   const HeaderMenu = document.querySelector('.header-menu');
   HeaderMenu.classList.toggle('active');
 
@@ -9,7 +10,7 @@ function changeIcon() {
   iconX.classList.toggle('active');
 }
 
-changeIcon();
+// changeIcon(this);
 
 function chanageMenu() {
   const HeaderMenu = document.querySelector('.header-menu');
