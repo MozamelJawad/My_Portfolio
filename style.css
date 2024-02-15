@@ -71,6 +71,10 @@ body {
   background-color: #fff;
 }
 
+#message {
+  resize: none;
+}
+
 .name {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
