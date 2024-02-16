@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 function changeIcon(icon) {
   icon.classList.toggle('bi-x');
   const HeaderMenu = document.querySelector('.header-menu');

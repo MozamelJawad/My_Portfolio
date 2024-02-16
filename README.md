@@ -105,7 +105,6 @@ Project can be deployed by using the gh-pages and other web platforms.
 
 ## 👥 Authors <a name="authors"></a>
 
-
 👤 **Mozamel Jawad**
 
 - GitHub: [@githubhandle](https://github.com/MozamelJawad)
