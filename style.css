@@ -12,8 +12,8 @@
 }
 
 :root {
-    --bg-color: #191765;
-    --seocond-bg-color: #231f84;
+    --bg-color: #231f84;
+    --seocond-bg-color: #191765;
     --text-color: #fff;
     --main-color: #0EF;
 }
@@ -245,7 +245,7 @@ span {
 /* Portfolio Section */
 
 .portfolio {
-  background: var(--seocond-bg-color);
+  background: var(--bg-color);
 }
 
 .portfolio .heading {
@@ -262,7 +262,7 @@ span {
 .portfolio-container .portfolio-box {
   position: relative;
   border-radius: 2rem;
-  box-shadow: 0 0 1rem var(--bg-color);
+  box-shadow: 0 0 1rem var(--seocond-bg-color);
   overflow: hidden;
   display: flex;
 }
@@ -318,10 +318,14 @@ span {
 
 .portfolio-layer a i {
   font-size: 2rem;
-  color: var(--seocond-bg-color);
+  color: var(--bg-color);
 }
 
 /* Contact Section */
+
+.contact {
+  background: var(--seocond-bg-color);
+}
 
 .contact h2 {
   margin-bottom: 3rem;
@@ -346,7 +350,7 @@ span {
   padding: 1.5rem;
   font-size: 1.6rem;
   color: var(--text-color);
-  background: var(--seocond-bg-color);
+  background: var(--bg-color);
   border-radius: 0.8rem;
   margin: 0.7rem 0;
 }
@@ -368,7 +372,7 @@ span {
     align-items: center;
     flex-wrap: wrap;
     padding: 2rem 9%;
-    background: var(--seocond-bg-color);
+    background: var(--bg-color);
 }
 
 .footer-text p {
