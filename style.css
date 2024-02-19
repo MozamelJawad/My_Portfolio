@@ -164,3 +164,81 @@ span {
 .btn:hover {
     box-shadow: none;
 }
+
+/* About Section */
+
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  background: var(--seocond-bg-color);
+  padding: 2rem 20%;
+  text-align: center;
+}
+
+.about-content a i {
+  font-size: 2.5rem;
+  color: var(--seocond-bg-color);
+  background-color: var(--main-color);
+  padding: 0.5rem;
+  margin: 0 1rem;
+  border-radius: 50%;
+}
+
+.skills {
+  margin: 2rem 0;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  border: 0.2rem solid var(--bg-color);
+  padding: 3rem 2rem 4rem;
+  background: var(--seocond-bg-color);
+  border-radius: 2rem;
+  transition: 0.5s ease;
+}
+
+.skills:hover {
+  border-color: var(--main-color);
+  transform: scale(1.02);
+}
+
+.skill-btn {
+  display: inline-flex;
+  padding: 1rem 2.8rem;
+  background: var(--main-color);
+  border-radius: 1rem;
+  font-weight: 600;
+  color: var(--seocond-bg-color);
+  margin: 1rem 1rem 0 0;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+
+.skill-btn:hover {
+  box-shadow: 0 0 1rem var(--main-color);
+  transform: scale(1.02);
+}
+
+.heading {
+  text-align: center;
+  font-size: 4.5rem;
+  margin-top: 5rem;
+}
+
+.about-content h2 {
+  text-align: center;
+  line-height: 1.2;
+}
+
+.about-content h3 {
+  font-size: 2.6rem;
+}
+
+.about-content p {
+  font-size: 1.6rem;
+  margin: 2rem 0 3rem;
+  line-height: 1.8;
+}
