@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 /* eslint-disable no-undef */
-// toggle icon navbar
 
+// toggle icon navbar
 const menuIcon = document.querySelector('#menu-icon');
 const navbar = document.querySelector('.navbar');
 
@@ -40,7 +40,6 @@ window.onscroll = () => {
 };
 
 // scroll reveal animation
-
 ScrollReveal({
   // reset: true,
   distance: '80px',
@@ -52,13 +51,3 @@ ScrollReveal().reveal('.home-content, .heading', { origin: 'top' });
 ScrollReveal().reveal('.home-img, .services-container, .portfolio-box, .contact form', { origin: 'bottom' });
 ScrollReveal().reveal('.home-content h1, .about-img', { origin: 'left' });
 ScrollReveal().reveal('.home-content p, .about-content', { origin: 'right' });
-
-// typed js
-
-const typed = new Typed('.multiple-text', {
-  strings: ['Full-stack Web Developer', 'Front-end Developer', 'Back-end Developer', 'Database Developer'],
-  typeSpeed: 100,
-  backSpeed: 100,
-  backDelay: 1000,
-  loop: true,
-});
