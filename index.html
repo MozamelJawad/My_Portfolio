@@ -1,160 +1,263 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
   <head>
-    <meta charset="utf-8">
-    <title>Mozamel Jawad's Portfolio</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-    <script src="script.js" defer></script>
+    <meta name="theme-color" content="#00509d"/>
+    <title>Mozamel Jawad | Portfolio</title>
+
+    <!-- box icons -->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
-    <header class="main-header">
-        <a href="#" class="header-title"> Jawad </a>
-        <ul class="header-menu">
-          <li onclick="chanageMenu()" class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
-          <li onclick="chanageMenu()" class="nav-item"><a class="nav-link" href="#about">About</a></li>
-          <li onclick="chanageMenu()" class="nav-item"><a class="nav-link" href="#contact-me">Contact</a></li>
-        </ul> 
+    <!-- header design -->
+    <header class="header">
+      <a href="#" class="logo">Mozamel Jawad</a>
+      <i class='bx bx-menu' id="menu-icon" ></i>
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
 
-        <div class="hamburger">
-            <i class="bi bi-list" onclick="changeIcon(this)"></i>
+    <!-- home section design -->
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Hello, It's Me</h3>
+        <h1>Mozamel Jawad</h1>
+        <h3><span>Full-stack Web Developer</span></h3>
+        <p>And a computer science graduate with a background in developing efficient software applications in a global market.</p>
+        <div class="social-media">
+          <a rel="noopener" target="_blank" href="https://www.facebook.com/mozamel.jawad/"><i class='bx bxl-facebook'></i></a>
+          <a rel="noopener" target="_blank"  href="https://twitter.com/mozameljawad"><i class='bx bxl-twitter'></i></a>
+          <a rel="noopener" target="_blank"  href="https://www.linkedin.com/in/mozamel-jawad/"><i class='bx bxl-linkedin' ></i></a>
+          <a rel="noopener" target="_blank"  href="https://github.com/MozamelJawad"><i class='bx bxl-github' ></i></a>
+          <a rel="noopener" target="_blank"  href="https://medium.com/@mozameljawad"><i class='bx bxl-medium' ></i></a>
         </div>
 
-      </header>
+        <a rel="noopener" target="_blank" href="https://docs.google.com/document/d/1_pa5B5mzteo-lF1KsKUlhHdvIEqVxUXIXeYDXbw9L2k/edit?usp=sharing" class="btn">Donwload CV</a>
 
-      <main>
-        <section class="content">
-          <h1 class="name">I'm Mozamel Jawad. <br> Glad to see you</h1>
-          <p class="message">I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.</p>
-
-          <span class="connect">LET’S CONNECT</span>
-          <div class="social-icons first-icons">
-            <a href="#">
-              <img src="assets/Icons/twitter.svg" alt="Twitter icon">
-            </a>
-            <a href="#">
-              <img src="assets/Icons/linkedin.png" alt="linkedin icon">
-            </a>
-            <a href="#">
-              <img src="assets/Icons/media.svg" alt="Medium Social icon">
-            </a>
-            <a href="#">
-              <img src="assets/Icons/cat.svg" alt="Github icon">
-            </a>
-            <a href="#">
-              <img src="assets/Icons/victory.svg" alt="angellist icon">
-            </a>
-          </div>
-
-        </section>
-      <!-- start of work container -->
-        <div class="works-container" id="portfolio">
-
-        </div>
-        <!-- end of work container -->
-
-          <!-- myself section -->
-        <section class="myself" id="about">
-          <div class="myself-top">
-                <h2 class="about-myself">About Myself</h2>
-                <p class="myself-text">Hello I’m a software developer! I can help you build a product , feature or website. Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.</p>
-
-                <span class="connect lets-connect">LET’S CONNECT</span>
-                <div class="social-icons">
-                  <a href="#">
-                    <img src="assets/Icons/twitter.svg" alt="twitter icon">
-                  </a>
-                  <a href="#">
-                    <img src="assets/Icons/linkedin.png" alt="linkedin icon">
-                  </a>
-                  <a href="#">
-                    <img src="assets/Icons/media.svg" alt="Medium Social icon">
-                  </a>
-                  <a href="#">
-                    <img src="assets/Icons/cat.svg" alt="Github icon">
-                  </a>
-                  <a href="#">
-                    <img src="assets/Icons/victory.svg" alt="angellist icon">
-                  </a>
-                </div>
-                <div class="action-btn-container">
-                    <button class="action-btn resume-btn" type="button" name="button">Get my resume</button>
-                </div>
-          </div>
-
-          <div class="my-skills">
-            <ul class="skills-list">
-                <li class="skills-container">
-                    <a class="skill-link" href="#">
-                      <span class="list-description">Languages</span>
-                    </a>
-                      <i class="bi bi-chevron-up chevron-icon"></i>
-                </li>
-                <div class="skill-vertical">
-                  <li class="skill">
-                    <img class="skill-image" src="assets/works/skill_1.png" alt="JavaScript">
-                    <span class="skill-name">Javascript</span>
-                    </li>
-                    <li class="skill">
-                      <img class="skill-image" src="assets/works/skill_2.png" alt="HTML">
-                      <span class="skill-name">HTML</span>
-                    </li>
-                    <li class="skill">
-                      <img class="skill-image" src="assets/works/skill_3.png" alt="CSS">
-                      <span class="skill-name">CSS</span>
-                    </li>
-                  </div> 
-                  <li class="frame-container">
-                    <a class="frame-title" href="#">
-                      <span class="framework--title">Frameworks</span></a>
-                      <i class="bi bi-chevron-right chevron-icon"></i>
-                  </li>  
-
-                  <hr />
-                  
-                  <li class="frame-container">
-                    <a class="frame-title" href="#">
-                      <span class="skills--title">Skills</span>
-                    </a>
-                      <i class="bi bi-chevron-right chevron-icon"></i>
-                </li>
-                <hr>
-          </ul>
-        </div>
-        </div>
+      </div>
+      <div class="home-img">
+        <img src="assets/background/jawadphoto.avif" alt="home photo" />
+      </div>
 
     </section>
-    <!-- End of myself section -->
 
-      <!-- contact me section -->
-          <section class="contact-me" id="contact-me">
-            <div class="snapshot">
-                <h2 class="contact">Contact Me</h2>
+    <!-- portfolio section design -->
+    <section class="portfolio" id="portfolio">
+      <h2 class="heading">Latest <span>Projects</span> </h2>
+
+      <div class="portfolio-container">
+        <div class="portfolio-box">
+          <img src="assets/portfolio/portfolio1.avif" alt="">
+
+          <div class="portfolio-info">
+            <h4>Hotel Booking System</h4>
+            <div class="portfolio-skills">
+             <button type="button" class="btn-skill">React</button>
+             <button type="button" class="btn-skill">Redux</button>
+             <button type="button" class="btn-skill">Bootstrap</button>
+             <button type="button" class="btn-skill">Rails</button>
+             <button type="button" class="btn-skill">PostgreSQL</button>
             </div>
-            <div class="pparagraph">
-                <p class="contact_p">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it!</p>
-
-            <form action="https://formspree.io/f/meqwyeoe" method="POST"  id="contact-form">
-                <input maxlength="30" required class="input"  placeholder="Write your full name" type="text" name="name" id="name"><br>
-
-                <input class="input" placeholder="Write your email" required type="email" name="email" id="email"><br>
-
-                <textarea maxlength="500" required class="input" placeholder="Write your message here..." name="message" id="message" cols="30" rows="10"></textarea>
-                
-                <div class="btn-container">
-                  <small id="error-message"></small><br>
-                  <button type="submit" class="last-btn touch">Get in touch</button>
-                </div>
-            </form>
-            
-            <div class="home-indicator">
-              <img class="home-indicator-icon" src="assets/Icons/home-indicator.png" alt="">
-            </div>
-
           </div>
-        </section>      
 
-    </main>
+          <div class="portfolio-layer">
+            <h4>Hotel Booking System</h4>
+            <p>A full-stack responsive web application that allows users to create new categories and add rooms to existing categories. Users can also book rooms and remove rooms from the app's dashboard.</p>
+            <div class="live-github">
+              <a rel="noopener" target="_blank" href="https://hotel-booking-3wof.onrender.com/"><i class="bx bx-link-external"></i></a>
+              <a rel="noopener" target="_blank" href="https://github.com/MozamelJawad/hotel-booking-front-end"><i class='bx bxl-github' ></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="assets/portfolio/portfolio2.avif" alt="">
+          <div class="portfolio-info">
+            <h4>Math-Magicians</h4>
+            <div class="portfolio-skills">
+             <button type="button" class="btn-skill">HTML</button>
+             <button type="button" class="btn-skill">CSS</button>
+             <button type="button" class="btn-skill">Bootstrap</button>
+             <button type="button" class="btn-skill">React</button>
+             <button type="button" class="btn-skill">Redux</button>
+            </div>
+          </div>
+          <div class="portfolio-layer">
+            <h4>Math-Magicians</h4>
+            <p> A single-page application (SPA) project and a math calculator designed in React that allows users to perform math operations, and view random qoutes.
+            </p>
+            <div class="live-github">
+              <a rel="noopener" target="_blank" href="https://math-magicians-7sq6.onrender.com/calculator"><i class="bx bx-link-external"></i></a>
+              <a rel="noopener" target="_blank" href="https://github.com/MozamelJawad/math-magicians"><i class='bx bxl-github' ></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="assets/portfolio/portfolio3.avif" alt="">
+
+          <div class="portfolio-info">
+            <h4>To-Do-List</h4>
+            <div class="portfolio-skills">
+             <button type="button" class="btn-skill">HTML</button>
+             <button type="button" class="btn-skill">CSS</button>
+             <button type="button" class="btn-skill">JavaScript</button>
+             <button type="button" class="btn-skill">Figma</button>
+             <button type="button" class="btn-skill">Bootstrap</button>
+            </div>
+          </div>
+
+          <div class="portfolio-layer">
+            <h4>To-Do-List</h4>
+            <p>This web application allows users to create and manage task lists. Entries are stored locally, providing users with the flexibility to add, remove, mark items as complete, and delete entries.</p>
+            <div class="live-github">
+              <a rel="noopener" target="_blank" href="https://mozameljawad.github.io/ToDoList/dist/"><i class="bx bx-link-external"></i></a>
+              <a rel="noopener" target="_blank" href="https://github.com/MozamelJawad/ToDoList"><i class='bx bxl-github' ></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="assets/portfolio/portfolio4.avif" alt="">
+          <div class="portfolio-info">
+            <h4>Badget-Application</h4>
+            <div class="portfolio-skills">
+             <button type="button" class="btn-skill">Ruby</button>
+             <button type="button" class="btn-skill">Rails</button>
+             <button type="button" class="btn-skill">Rspec</button>
+             <button type="button" class="btn-skill">Bootstrap</button>
+             <button type="button" class="btn-skill">PostgreSQL</button>
+            </div>
+          </div>
+          <div class="portfolio-layer">
+            <h4>Budget-Application</h4>
+            <p>A mobile web application built with Ruby on Rails where users can manage their budget. A user has a list of transactions associated with a category so that he can see how much money he spent and on what.</p>
+            <div class="live-github">
+              <a rel="noopener" target="_blank" href="https://budget-app-d0ig.onrender.com/"><i class="bx bx-link-external"></i></a>
+              <a rel="noopener" target="_blank" href="https://github.com/MozamelJawad/Budget-app"><i class='bx bxl-github' ></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="assets/portfolio/portfolio5.avif" alt="">
+          <div class="portfolio-info">
+            <h4>Space Travelers Hub</h4>
+            <div class="portfolio-skills">
+             <button type="button" class="btn-skill">Bootstrap</button>
+             <button type="button" class="btn-skill">React</button>
+             <button type="button" class="btn-skill">Redux</button>
+             <button type="button" class="btn-skill">Jest</button>
+             <button type="button" class="btn-skill">Unit-Testing</button>
+            </div>
+          </div>
+          <div class="portfolio-layer">
+            <h4>Space Travelers Hub</h4>
+            <p>This application use the real live data of SpaceX and its for a company that provides commercial and scientific space travel services. 
+          </p>
+          <div class="live-github">
+            <a rel="noopener" target="_blank" href="https://space-travelers-hub-bpgh.onrender.com/"><i class="bx bx-link-external"></i></a>
+            <a rel="noopener" target="_blank" href="https://github.com/MozamelJawad/react-redux-group-project"><i class='bx bxl-github' ></i></a>
+          </div>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="assets/portfolio/portfolio6.avif" alt="">
+
+          <div class="portfolio-info">
+            <h4>Techlife Summit</h4>
+            <div class="portfolio-skills">
+             <button type="button" class="btn-skill">HTML</button>
+             <button type="button" class="btn-skill">CSS</button>
+             <button type="button" class="btn-skill">JavaScript</button>
+             <button type="button" class="btn-skill">Figma</button>
+             <button type="button" class="btn-skill">Bootstrap</button>
+            </div>
+          </div>
+
+          <div class="portfolio-layer">
+            <h4>Techlife Summit</h4>
+            <p>The app is developed in HTML, CSS, JavaScript, and Bootstrap framework and is about the innovative summit of Techlife development company which provides various information about Techlife.</p>
+            <div class="live-github">
+              <a rel="noopener" target="_blank" href="https://mozameljawad.github.io/Capstone-Project/"><i class="bx bx-link-external"></i></a>
+              <a rel="noopener" target="_blank" href="https://github.com/MozamelJawad/Capstone-Project"><i class='bx bxl-github' ></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+      <!-- about section design -->
+      <section class="about" id="about">
+        <div class="about-content">
+          <h2 class="heading">About <span>Me</span> </h2>
+          <h3>Full-stack Web Developer!</h3>
+          <p id="skills">A certified full-stack developer and computer science graduate with a background in developing efficient software applications in a global market. Proficient in Bootstrap, JavaScript, React, Redux, Ruby, Ruby on Rails, MySQL, and PostgreSQL, with 40+ high-quality projects. Passionate about continuous learning and staying up-to-date with the latest technologies and frameworks.</p>
+  
+          <a href="#skills"><i class='bx bx-down-arrow-alt' ></i></a>
+  
+          <div class="skills">
+            <button type="button" class="skill-btn">HTML5</button>
+            <button type="button" class="skill-btn">CSS3</button>
+            <button type="button" class="skill-btn">JavaScript</button>
+            <button type="button" class="skill-btn">Bootstrap</button>
+            <button type="button" class="skill-btn">React</button>
+            <button type="button" class="skill-btn">Redux</button>
+            <button type="button" class="skill-btn">Figma</button>
+            <button type="button" class="skill-btn">Ruby</button>
+            <button type="button" class="skill-btn">Rails</button>
+            <button type="button" class="skill-btn">Rspec</button>
+            <button type="button" class="skill-btn">Jest</button>
+            <button type="button" class="skill-btn">SQL</button>
+            <button type="button" class="skill-btn">MySQL</button>
+            <button type="button" class="skill-btn">PostgreSQL</button>
+            <button type="button" class="skill-btn">Git</button>
+            <button type="button" class="skill-btn">GitHub</button>
+            <button type="button" class="skill-btn">Git-Flow</button>
+          </div>
+        </div>
+      </section>
+    
+    <!-- contact section design -->
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me!</span> </h2>
+      <form action="https://formspree.io/f/meqwyeoe" method="POST">
+        <div class="input-box">
+          <input required type="text" placeholder="Full Name" name="name" >
+          <input required type="email" placeholder="Email Address" name="email" >
+        </div>
+        <textarea required name="message" id="message" cols="30" rows="10" placeholder="Your Message"></textarea>
+        <input type="submit" value="Send Message" class="btn">
+      </form>
+    </section>
+  
+
+    <!-- footer design -->
+    <footer class="footer">
+      <div class="footer-text">
+        <p>Copyright &copy; 2024 by Mozamel | All Rights Reserved. </p>
+      </div>
+
+      <div class="footer-topIcon">
+        <a href="#home"><i class='bx bx-up-arrow-alt' ></i></a>
+      </div>
+    </footer>
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- custom js -->
+    <script src="script.js"></script>
   </body>
 </html>

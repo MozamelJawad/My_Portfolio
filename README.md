@@ -94,7 +94,6 @@ To run the project, execute the following command:
 
 > npx hint .
 
-
 ### Deployment
 
 Project can be deployed by using the gh-pages and other web platforms.
