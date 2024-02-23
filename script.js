@@ -1,6 +1,5 @@
 /* eslint-disable no-unused-vars */
 /* eslint-disable no-undef */
-
 // toggle icon navbar
 const menuIcon = document.querySelector('#menu-icon');
 const navbar = document.querySelector('.navbar');
