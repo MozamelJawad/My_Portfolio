@@ -12,10 +12,10 @@
 }
 
 :root {
-  --bg-color: #00509d;
-  --seocond-bg-color: #00296b;
+  --bg-color: #003f88;
+  --seocond-bg-color: #00509d;
   --text-color: #fff;
-  --main-color: #0ef;
+  --main-color: #0ee;
 }
 
 html {
@@ -150,6 +150,10 @@ section {
   font-size: 2.6rem;
 }
 
+.services-box h3 {
+  font-size: 2.6rem;
+}
+
 .home-content h3:nth-of-type(2) {
   margin-bottom: 2rem;
 }
@@ -197,9 +201,14 @@ span {
   justify-content: center;
   align-items: center;
   gap: 2rem;
-  background: var(--bg-color);
+  background: var(--seocond-bg-color);
   padding: 2rem 20%;
   text-align: center;
+}
+
+.services-box i {
+  font-size: 7rem;
+  color: var(--main-color);
 }
 
 .about-content a i {
@@ -396,11 +405,45 @@ span {
   cursor: pointer;
 }
 
+/* services Section */
+
+.services h2 {
+  margin-bottom: 5rem;
+}
+
+.services-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.services-container .services-box {
+  flex: 1 1 30rem;
+  background: var(--seocond-bg-color);
+  padding: 3rem 2rem 4rem;
+  border-radius: 2rem;
+  text-align: center;
+  border: 0.2rem solid var(--bg-color);
+  transition: 0.5s ease;
+}
+
+.services-container .services-box:hover {
+  border-color: var(--main-color);
+  transform: scale(1.02);
+}
+
+.services-box p {
+  font-size: 1.6rem;
+  margin: 1rem 0 3rem;
+}
+
 /* Contact Section */
 
-.contact {
+/* .contact {
   background-color: var(--seocond-bg-color);
-}
+} */
 
 .contact h2 {
   margin-bottom: 3rem;
@@ -425,7 +468,7 @@ span {
   padding: 1.5rem;
   font-size: 1.6rem;
   color: var(--text-color);
-  background: var(--bg-color);
+  background: var(--seocond-bg-color);
   border-radius: 0.8rem;
   margin: 0.7rem 0;
 }
@@ -447,7 +490,7 @@ span {
   align-items: center;
   flex-wrap: wrap;
   padding: 2rem 9%;
-  background: var(--bg-color);
+  background: var(--seocond-bg-color);
 }
 
 .footer-text p {
