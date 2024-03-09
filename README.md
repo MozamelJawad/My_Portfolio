@@ -33,15 +33,9 @@
 ### Tech Stack <a name="tech-stack"></a>
 
   <ul>
-    <li>
-      HTML
-    </li>
-    <li>
-      CSS
-    </li>
-    <li>
-      JavaScript 
-    </li>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
   </ul>
 
 ## 🚀 Live Demo <a name="live-demo"></a>
@@ -56,7 +50,7 @@
 - **Good Color Matching**
 - **Animation**
 - **Transition**
-- **Responsive**
+- **Responsiveness**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -98,7 +92,7 @@ To run the project, execute the following command:
 
 ### Deployment
 
-Project can be deployed by using the gh-pages and other web platforms.
+The project can be deployed by using the gh-pages and other web platforms.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -110,7 +104,7 @@ Project can be deployed by using the gh-pages and other web platforms.
 
 - GitHub: [@githubhandle](https://github.com/MozamelJawad)
 - Twitter: [@twitterhandle](https://twitter.com/mozameljawad)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/mozamel-jawad-2b4421111/)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/mozamel-jawad/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
