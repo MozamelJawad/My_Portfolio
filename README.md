@@ -26,7 +26,7 @@
 
 # 📖 My_Portfolio <a name="about-project"></a>
 
-**My_Portfolio** showcases my skills as a developer and it is designed using HTML and CSS.
+Welcome to my **My_Portfolio**! This **Portfolio** showcases my work, skills, and some completed projects developed in at latest technologies and frameworks. The **Portfolio** provides a contact form to directly contact **Mozamel Jawad** and share your thoughts.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -76,7 +76,7 @@ https://github.com/MozamelJawad/My_Portfolio
 Install this project with: 
 
 ```sh
-  cd My_Portfolio
+ cd My_Portfolio
  npm install
 ```
 
@@ -88,7 +88,7 @@ To run the project, execute the following command:
 
 ### Run tests
 
-> npx hint .
+> npx hint.
 
 ### Deployment
 
@@ -141,7 +141,7 @@ If you like this project, give a ⭐️
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank from Microverse
+I would like to thank Microverse for providing an opportunity to pair programing and remote collaboration.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
