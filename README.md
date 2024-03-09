@@ -32,17 +32,17 @@
 
 ### Tech Stack <a name="tech-stack"></a>
 
-<details>
-  <summary>Client</summary>
   <ul>
-    <li><a href="https://rubyonrails.org/">
-      HTML <br>
+    <li>
+      HTML
+    </li>
+    <li>
       CSS
-      </a>
+    </li>
+    <li>
+      JavaScript 
     </li>
   </ul>
-</details>
-
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
