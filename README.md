@@ -70,7 +70,6 @@ Clone this repository to your desired folder:
 
 https://github.com/MozamelJawad/My_Portfolio
 
-
 ### Install
 
 Install this project with: 
